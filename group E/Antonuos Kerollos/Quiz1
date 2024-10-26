@@ -1,1 +1,9 @@
 https://youtube.com/shorts/gEl-eugMJ5Q
+
+Resource   Utilization   Available   Utilization %
+-------------------------------------------------
+LUT        221           63400       0.35%
+FF         229           126800      0.18%
+BRAM       0.50          135         0.37%
+IO         7             210         3.33%
+BUFG       1             32          3.13%
