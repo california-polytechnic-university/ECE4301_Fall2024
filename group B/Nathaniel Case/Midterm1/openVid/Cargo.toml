@@ -1,0 +1,13 @@
+[package]
+name = "openVid"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = "0.11"
+tokio = { version = "1", features = ["full"] }
+chacha20 = "0.8"
+cipher = "0.4"
+image = "0.23"
+rand = "0.8"
+minifb = "0.16"
