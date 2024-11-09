@@ -1,0 +1,1 @@
+Vid_Stream.py is the python code for encrypting and streaming video from the Raspberry Pi 5. openVid is the rust code for decrypting and displaying the stream from the Pi. Unfortunately I could never get the stream to decrypt or display with the rust code.
