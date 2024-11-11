@@ -1,0 +1,8 @@
+[package]
+name = "prime_gen"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8"
+sys-info = "0.9"
