@@ -1,30 +1,14 @@
 use rand::Rng;
 use std::time::Instant;
 use std::process;
+use sysinfo::{ProcessExt, System, SystemExt};
 
-#[cfg(target_os = "linux")]
-fn get_memory_usage() -> u64 {
-    use std::fs::File;
-    use std::io::Read;
-    
-    let mut status = String::new();
-    if let Ok(mut file) = File::open(format!("/proc/{}/status", process::id())) {
-        file.read_to_string(&mut status).unwrap_or(0);
-        for line in status.lines() {
-            if line.starts_with("VmRSS:") {
-                return line.split_whitespace()
-                    .nth(1)
-                    .and_then(|x| x.parse::<u64>().ok())
-                    .unwrap_or(0);
-            }
-        }
-    }
-    0
-}
-
-#[cfg(not(target_os = "linux"))]
-fn get_memory_usage() -> u64 {
-    0 // Return 0 for non-Linux systems as a fallback
+fn get_memory_usage_kb() -> isize {
+    let mut system = System::new_all();
+    system.refresh_processes();
+    let pid = sysinfo::get_current_pid().expect("Failed to get PID");
+    let process = system.process(pid).expect("Failed to get process info");
+    process.memory() as isize
 }
 
 fn is_prime(n: u64) -> bool {
@@ -50,9 +34,8 @@ fn is_prime(n: u64) -> bool {
     true
 }
 
-fn generate_random_prime() -> (u64, std::time::Duration, u64) {
+fn generate_random_prime() -> (u64, std::time::Duration) {
     let start_time = Instant::now();
-    let initial_memory = get_memory_usage();
     
     let mut rng = rand::thread_rng();
     let mut attempts = 0;
@@ -66,10 +49,8 @@ fn generate_random_prime() -> (u64, std::time::Duration, u64) {
     };
     
     let duration = start_time.elapsed();
-    let final_memory = get_memory_usage();
-    let memory_used = final_memory.saturating_sub(initial_memory);
     
-    (prime, duration, memory_used)
+    (prime, duration)
 }
 
 fn format_duration(duration: std::time::Duration) -> String {
@@ -82,30 +63,22 @@ fn format_duration(duration: std::time::Duration) -> String {
     }
 }
 
-fn format_memory(kb: u64) -> String {
-    if kb >= 1024 * 1024 {
-        format!("{:.2} GB", kb as f64 / (1024.0 * 1024.0))
-    } else if kb >= 1024 {
-        format!("{:.2} MB", kb as f64 / 1024.0)
-    } else {
-        format!("{} KB", kb)
-    }
-}
-
 fn main() {
     println!("Generating a random 64-bit prime number...");
-    
-    let (prime, duration, memory_used) = generate_random_prime();
-    
+
+    // Capture initial memory usage
+    let initial_memory = get_memory_usage_kb();
+
+    let (prime, duration) = generate_random_prime();
+
+    // Capture final memory usage
+    let final_memory = get_memory_usage_kb();
+
     println!("\nResults:");
     println!("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
     println!("Random prime: {}", prime);
     println!("Execution time: {}", format_duration(duration));
     
-    if memory_used > 0 {
-        println!("Memory usage: {}", format_memory(memory_used));
-    } else {
-        println!("Memory usage: Not available (non-Linux system)");
-    }
+    println!("Memory used: {} KB", final_memory - initial_memory);
     println!("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
 }
