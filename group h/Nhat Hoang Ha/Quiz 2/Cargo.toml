@@ -1,0 +1,8 @@
+[package]
+name = "test-rust2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rayon = "1.10"
+sysinfo = "0.32"
