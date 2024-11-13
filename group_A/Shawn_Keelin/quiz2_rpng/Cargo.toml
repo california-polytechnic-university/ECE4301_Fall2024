@@ -1,0 +1,10 @@
+[package]
+name = "quiz2_rpng"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num-bigint = "0.2"
+num-primes = "0.3"
+rand = "0.8.5"
+sysinfo = "0.32.0"

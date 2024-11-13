@@ -1,0 +1,11 @@
+Execution Time Analysis (seconds):
+  Average: 0.0057
+  Minimum: 0.0023
+  Maximum: 0.0186
+  Standard Deviation: 0.0034
+
+Memory Usage Analysis (KB):
+  Average: 883152773.12
+  Minimum: 882278400
+  Maximum: 884781056
+  Standard Deviation: 894326.21
