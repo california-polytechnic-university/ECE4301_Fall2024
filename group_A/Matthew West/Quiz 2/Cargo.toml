@@ -1,0 +1,8 @@
+[package]
+name = "prime-rng"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8"
+windows = { version = "0.36.1", features = ["Win32_System_SystemInformation"] }
