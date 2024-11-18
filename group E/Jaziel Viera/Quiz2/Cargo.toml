@@ -1,0 +1,10 @@
+[package]
+name = "prime_finder_tool"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8"
+num-bigint = "0.4"
+num-primes = "0.1"
+sys-info = "0.9"
