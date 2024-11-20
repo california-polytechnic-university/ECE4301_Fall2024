@@ -54,15 +54,3 @@ This Rust program generates a random prime number using the **trial division** m
   - Outputs all relevant data, including the memory usage difference.
 
 ---
-
-## Running the Program
-
-### Prerequisites
-- **Operating System:** Linux (uses `/proc/self/status` which is Linux-specific).
-- **Rust Installed:** Ensure Rust is installed on your system. If not, install it from [Rust's official website](https://www.rust-lang.org/).
-
-### Steps to Run
-1. Clone or copy the code into a Rust project file (e.g., `main.rs`).
-2. Build and run the program:
-   ```bash
-   cargo run
