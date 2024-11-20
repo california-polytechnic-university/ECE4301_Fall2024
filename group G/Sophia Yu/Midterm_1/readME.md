@@ -2,6 +2,8 @@
 
 This project demonstrates how to record a video file (in MP4 format), encrypt it using the ChaCha20 encryption algorithm, and securely transfer it from a Raspberry Pi to another Linux computer for decryption.
 
+video: https://youtu.be/px0jtZY_4dc?si=SYEVtgRFPKydKG79
+
 ---
 
 ## **Overview**
