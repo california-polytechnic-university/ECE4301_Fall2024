@@ -50,11 +50,3 @@ This project demonstrates how to record a video file (in MP4 format), encrypt it
    - SSH access from Raspberry Pi to the Linux computer.
 
 ---
-
-### **Steps**
-
-#### **1. On the Raspberry Pi**
-
-1. Install required Python libraries:
-   ```bash
-   pip install cryptography
