@@ -1,6 +1,21 @@
 use rand::Rng;
+use std::fs;
 
+fn get_memory_usage() -> Result<usize, String> {
+    let status = fs::read_to_string("/proc/self/status")
+        .map_err(|_| "Failed to read /proc/self/status".to_string())?;
 
+    for line in status.lines() {
+        if line.starts_with("VmRSS:") {
+            let parts: Vec<&str> = line.split_whitespace().collect();
+            if let Some(value) = parts.get(1) {
+                return value.parse::<usize>().map_err(|_| "Failed to parse memory usage".to_string());
+            }
+        }
+    }
+
+    Err("VmRSS not found".to_string())
+}
 
 fn trial_division(n: u64) -> bool {
 
@@ -34,23 +49,37 @@ fn trial_division(n: u64) -> bool {
     true
 }
 
-fn main() {
-    let mut rng = rand::thread_rng();
-    let mut random_number: u64 = rng.gen(); // Generates a random u64 number
 
-    // Loop until a prime number is found
-    loop {
-        random_number = rng.gen(); // Generate a random u64 number
-        // println!("Generated number: {}", random_number);
-    
-        if trial_division(random_number) {
-            println!("prime number: {}!", random_number);
-            break; // Exit the loop if the number is prime
-        } else {
-            // println!("{} is not a prime number. Generating another...", random_number);
+fn main() {
+    match get_memory_usage() {
+        Ok(initial_memory_usage) => {
+            println!("Initial memory usage: {} kB", initial_memory_usage);
+
+            let mut rng = rand::thread_rng();
+            let mut random_number: u64;
+
+            loop {
+                random_number = rng.gen(); // Generate a random u64 number
+
+                if trial_division(random_number) {
+                    println!("Prime number found: {}!", random_number);
+                    break; // Exit the loop if the number is prime
+                }
+            }
+
+            // Get memory usage after finding the prime number
+            match get_memory_usage() {
+                Ok(final_memory_usage) => {
+                    println!("Memory usage after finding prime: {} kB", final_memory_usage);
+                    println!("total memory usage: {} kb", final_memory_usage-initial_memory_usage);
+                }
+                Err(e) => {
+                    eprintln!("Error fetching memory usage after finding prime: {}", e);
+                }
+            }
+        }
+        Err(e) => {
+            eprintln!("Error fetching initial memory usage: {}", e);
         }
     }
-
-    println!("\n");
-
 }
