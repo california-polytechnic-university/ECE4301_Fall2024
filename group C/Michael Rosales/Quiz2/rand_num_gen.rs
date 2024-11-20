@@ -1,3 +1,4 @@
+
 use rand::Rng;
 use std::time::{Instant, Duration};
 use std::fs;
@@ -22,6 +23,7 @@ fn is_prime(n: u64) -> bool {
     if n <= 3 {
         return true;
     }
+    
     if n % 2 == 0 || n % 3 == 0 {
         return false;
     }
@@ -44,7 +46,7 @@ fn generate_random_prime() -> (Option<u64>, std::time::Duration) {
 
     let mut rng = rand::thread_rng();
     let prime = loop {
-        let candidate: u64 = rng.gen_range(2..u64::MAX) | 1; // Limit
+        let candidate: u64 = (rng.gen_range(0..u64::MAX) | 1) | (1 << 63); // Ensure 64 bits
         if is_prime(candidate) {
             break Some(candidate);
         }
@@ -72,7 +74,7 @@ fn format_duration(duration: std::time::Duration) -> String {
 fn main() {
     println!("\nGenerating a random 64-bit prime number...");
 
-    //memory usage
+    // Capture initial memory usage
     let initial_memory = get_memory_usage_kb();
 
     let mut vec = Vec::with_capacity(1_000_000);
@@ -80,12 +82,11 @@ fn main() {
         vec.push(i);
     }
 
-    // Delay
     std::thread::sleep(Duration::from_millis(100));
 
     let (prime, duration) = generate_random_prime();
 
-    // final memory usage
+    // Capture final memory usage
     let final_memory = get_memory_usage_kb();
 
     println!("\n");
@@ -98,3 +99,4 @@ fn main() {
     println!("Memory used:       {} KB", final_memory - initial_memory);
     println!("\n");
 }
+
