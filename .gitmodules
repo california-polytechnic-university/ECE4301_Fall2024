@@ -1,0 +1,3 @@
+[submodule "group_A/Parsa/Crypto"]
+	path = group_A/Parsa/Crypto
+	url = https://github.com/ParsaRezaei/Crypto.git
