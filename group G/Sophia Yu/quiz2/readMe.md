@@ -1,12 +1,12 @@
 # Prime Number Generator with Memory Usage Tracking
 
-![76FF7B14-9A83-4EF9-B03C-44D717DB893C](https://github.com/user-attachments/assets/cd5edfb1-c90e-46ce-bfff-323be535531b)
-
 video: https://youtu.be/Uq7hSaGHIVo
 
 This Rust program generates a random prime number using the **trial division** method and tracks the **memory usage** of the program before and after finding the prime number. The memory usage is retrieved by reading the Linux `/proc/self/status` file.
 
 ---
+
+<img width="741" alt="76FF7B14-9A83-4EF9-B03C-44D717DB893C" src="https://github.com/user-attachments/assets/3f496d15-9ea4-494c-9a55-da0414ac12bd">
 
 ## How It Works
 
