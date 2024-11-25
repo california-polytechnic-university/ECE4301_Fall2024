@@ -1,0 +1,15 @@
+[package]
+name = "video_decryption"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+opencv = "0.93.4"
+rsa = "0.8.0"
+num-bigint = { version = "0.4.3", features = ["rand"] }
+rand = "0.8.5"
+aes = "0.7.5"
+block-modes = "0.8.1"
+cipher = "0.4.3" # Added cipher crate
+tokio = { version = "1.0", features = ["full"] }
+sha2 = "0.10.6"
