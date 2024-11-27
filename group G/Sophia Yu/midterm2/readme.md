@@ -1,5 +1,7 @@
 # Hybrid Cryptography for Secure File Transfer and Communication
 This project demonstrates a hybrid cryptography system for securely exchanging random values, deriving a shared symmetric AES key, and using it to encrypt/decrypt a video file between a Host PC and a Raspberry Pi (PI). The system uses RSA and Diffie-Hallman for secure key exchange and AES for efficient symmetric encryption.
+## video
+https://youtu.be/Pnn5iX1P0JQ?feature=shared
 
 ## Features
 
@@ -9,7 +11,7 @@ This project demonstrates a hybrid cryptography system for securely exchanging r
     4. File Transfer via SCP: Securely transfers files between Host PC and Raspberry Pi.
 
 ## Workflow
-1. Host PC (First Code)
+1. Host PC 
 
     Generate RSA Key Pair:
         Generates a private/public RSA key pair.
@@ -39,7 +41,7 @@ This project demonstrates a hybrid cryptography system for securely exchanging r
         Waits for the encrypted video file (encrypted_video.enc).
         Decrypts it using the derived AES key and saves it as decrypted_video_haha.mp4.
 
-2. Raspberry Pi (Second Code)
+2. Raspberry Pi 
 
     Generate RSA Key Pair:
         Generates a private/public RSA key pair.
