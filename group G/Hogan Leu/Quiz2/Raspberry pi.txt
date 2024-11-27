@@ -1,0 +1,37 @@
+fn sieve(n: usize) {
+    let mut prime: Vec<bool> = vec![true; n];
+    let mut i: usize = 2;
+    let mut done = false;
+
+    while !done {
+        if prime[i] {
+            let mut end = false;
+            let mut p = i * i;
+            while !end {
+                if p >= n {
+                    end = true;
+                } else {
+                    prime[p] = false;
+                    p += i;
+                }
+            }
+        }
+        if i * i >= n {
+            done = true;
+        }
+        i += 1;
+    }
+
+    let mut num = 0;
+    for p in 2..n {
+        if prime[p] {
+            num += 1;
+        }
+    }
+    println!("There are {} prime numbers", num);
+}
+
+fn main() {
+    // 呼叫 sieve 
+    sieve(100); // 
+}
