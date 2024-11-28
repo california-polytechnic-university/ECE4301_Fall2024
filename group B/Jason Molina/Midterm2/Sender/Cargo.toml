@@ -1,0 +1,11 @@
+[package]
+name = "midterm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rsa = "0.9.6"
+rand = "0.8.4"
+aes-gcm = "0.10.3"
+termion = "1.5.5"
+nix = "0.15.0"
