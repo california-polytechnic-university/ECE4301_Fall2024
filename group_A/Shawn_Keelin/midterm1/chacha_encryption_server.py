@@ -1,69 +1,67 @@
-import cv2
 import socket
 import struct
+import time
+import cv2
 from Crypto.Cipher import ChaCha20
 from Crypto.Random import get_random_bytes
 
-# Path to your video file
-video_file = 'Telescope Drone Hardware Demo Video.mp4'
-
-# Set up video capture from the file
-cap = cv2.VideoCapture(video_file)
-
-# Get video dimensions
-width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
-height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
-
-target_width = 640
-target_height = 360
-
-# Set up socket for streaming video
+# Set up socket for sending video
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.bind(('0.0.0.0', 8000))
 server_socket.listen(0)
-print("Server listening on port 8000...")
 
-# Wait for a client connection
-connection, client_address = server_socket.accept()
-print("Connection established with: ", client_address)
+# Accept a single connection
+connection = server_socket.accept()[0].makefile('wb')
 
-# Generate a random 256-bit key and nonce for ChaCha20 encryption
+# Initialize USB webcam
+cap = cv2.VideoCapture(0)
+frame_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+frame_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+
+# Generate key and nonce for ChaCha20
 key = get_random_bytes(32)
 nonce = get_random_bytes(12)
 
-# Send the key, nonce, width, and height to the client
-connection.sendall(key)
-connection.sendall(nonce)
-connection.sendall(struct.pack('<L', target_width))  # Send width as 4 bytes
-connection.sendall(struct.pack('<L', target_height)) # Send height as 4 bytes
+# Send key and nonce to the client
+connection.write(key)
+connection.write(nonce)
+connection.flush()
 
-# Start streaming the video file
-while True:
-    ret, frame = cap.read()
-    if not ret:
-        break
+# Send frame dimensions
+connection.write(struct.pack('<LL', frame_width, frame_height))
+connection.flush()
 
-    # Downscale the frame to the target resolution (640x360)
-    resized_frame = cv2.resize(frame, (target_width, target_height))
+# Start capturing video
+try:
+    while True:
+        ret, frame = cap.read()
+        if not ret:
+            break
 
-    # Compress the frame to JPEG to reduce size
-    encoded, buffer = cv2.imencode('.jpg', resized_frame)
+        # Display the frame
+        cv2.imshow('Video', frame)
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
 
-    # Encrypt the frame using ChaCha20
-    cipher = ChaCha20.new(key=key, nonce=nonce)
-    encrypted_frame = cipher.encrypt(buffer.tobytes())
+        # Convert frame to bytes
+        frame_data = frame.tobytes()
 
-    # Send the length of the encrypted frame followed by the encrypted frame
-    frame_length = struct.pack('<L', len(encrypted_frame))
-    connection.sendall(frame_length + encrypted_frame)
+        # Measure encryption time
+        start_time = time.time()
+        cipher = ChaCha20.new(key=key, nonce=nonce)
+        encrypted_frame = cipher.encrypt(frame_data)
+        encryption_time = time.time() - start_time
+        print(f"Encryption time: {encryption_time:.6f} seconds")
 
-    # Display the unencrypted frame on the Raspberry Pi (optional)
-    cv2.imshow('Unencrypted Frame', frame)
+        # Send the length of the encrypted frame
+        connection.write(struct.pack('<L', len(encrypted_frame)))
+        connection.flush()
 
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
-
-cap.release()
-cv2.destroyAllWindows()
-connection.close()
-server_socket.close()
+        # Send the encrypted frame
+        connection.write(encrypted_frame)
+        connection.flush()
+finally:
+    cap.release()
+    connection.close()
+    server_socket.close()
+    cv2.destroyAllWindows()
