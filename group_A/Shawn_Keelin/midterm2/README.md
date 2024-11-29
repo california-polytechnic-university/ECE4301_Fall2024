@@ -108,4 +108,3 @@ The current implementation uses standard Diffie-Hellman. To evaluate Elliptic Cu
 ## License
 
 This project is licensed under the MIT License.
-```
