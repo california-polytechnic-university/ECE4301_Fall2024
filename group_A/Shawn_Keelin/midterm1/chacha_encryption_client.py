@@ -12,7 +12,7 @@ client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 connected = False
 while not connected:
     try:
-        client_socket.connect(('192.168.137.29', 8000))  # Replace 'YOUR_PI_IP' with the IP of your Raspberry Pi
+        client_socket.connect(('192.168.50.222', 8000))  # Replace with your Raspberry Pi's IP
         connected = True
     except socket.error as e:
         print(f"Connection failed: {e}. Retrying in 5 seconds...")
@@ -24,19 +24,8 @@ nonce = client_socket.recv(12)
 print("Received key and nonce from the server...")
 
 # Receive the video frame dimensions (width and height)
-frame_width, frame_height = struct.unpack('<II', client_socket.recv(8))
+frame_width, frame_height = struct.unpack('<LL', client_socket.recv(8))
 print(f"Received frame dimensions: {frame_width}x{frame_height}")
-
-# Function to display encrypted data as an image (visualization only)
-def visualize_encrypted_data(data, width, height):
-    # Convert encrypted data into grayscale for visualization
-    img_size = min(len(data), width * height)  # Limit size to frame dimensions
-    img_array = np.frombuffer(data[:img_size], dtype=np.uint8)
-    img_array = np.pad(img_array, (0, width * height - len(img_array)), mode='constant')  # Zero padding
-    img_array = img_array.reshape((height, width))
-    return img_array
-
-data = b''
 
 while True:
     # Receive the length of the incoming frame
@@ -46,28 +35,19 @@ while True:
     frame_length = struct.unpack('<L', packed_length)[0]
 
     # Receive the encrypted frame
-    while len(data) < frame_length:
-        data += client_socket.recv(frame_length - len(data))
+    encrypted_frame = b''
+    while len(encrypted_frame) < frame_length:
+        encrypted_frame += client_socket.recv(frame_length - len(encrypted_frame))
 
-    encrypted_frame = data[:frame_length]
-    data = data[frame_length:]
-
-    # Visualize encrypted data (optional)
-    encrypted_visualization = visualize_encrypted_data(encrypted_frame, frame_width, frame_height)
-
-    # Decrypt the frame using ChaCha20
+    # Decrypt the frame
     cipher = ChaCha20.new(key=key, nonce=nonce)
-    decrypted_frame = cipher.decrypt(encrypted_frame)
+    frame_data = cipher.decrypt(encrypted_frame)
 
-    # Decode the decrypted frame from JPEG
-    frame = np.frombuffer(decrypted_frame, dtype=np.uint8)
-    decoded_frame = cv2.imdecode(frame, cv2.IMREAD_COLOR)
+    # Convert the frame data to an image
+    frame = np.frombuffer(frame_data, dtype=np.uint8).reshape((frame_height, frame_width, 3))
 
-    # Display the frames
-    cv2.imshow('Encrypted Data (Visualization)', encrypted_visualization)
-    cv2.imshow('Decrypted Frame', decoded_frame)
-
-    # Exit on 'q' key press
+    # Display the frame
+    cv2.imshow('Video', frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
