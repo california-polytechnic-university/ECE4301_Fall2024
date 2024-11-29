@@ -1,0 +1,1 @@
+Like midterm1 the code for midterm2 never fully worked. The decryption inexplicably fails.
