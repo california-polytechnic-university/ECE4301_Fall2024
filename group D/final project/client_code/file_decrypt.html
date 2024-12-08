@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Decryption</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        form {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"], input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .message {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .success {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .error {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .details {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>File Decryption</h1>
+
+    <!-- File Decryption Form -->
+    <form id="decrypt-form" enctype="multipart/form-data">
+        <label for="encrypted-file">Select Encrypted File:</label>
+        <input type="file" id="encrypted-file" name="encrypted-file" required>
+
+        <label for="nonce">Nonce:</label>
+        <input type="text" id="nonce" name="nonce" placeholder="Enter nonce (base64)" required>
+
+        <label for="tag">Tag:</label>
+        <input type="text" id="tag" name="tag" placeholder="Enter tag (base64)" required>
+
+        <label for="session-key">Session Key:</label>
+        <input type="text" id="session-key" name="session-key" placeholder="Enter session key (base64)" required>
+
+        <button type="submit">Decrypt</button>
+    </form>
+    <div id="decryption-response" class="message" style="display: none;"></div>
+
+    <!-- Decryption Details -->
+    <div id="decryption-details" class="details message success" style="display: none;">
+        <h3>Decryption Details</h3>
+        <p><strong>Decrypted File:</strong> <span id="decrypted-file"></span></p>
+        <button id="download-decrypted-button" style="display: none;">Download Decrypted File</button>
+        <p><strong>Encryption Time (ms):</strong> <span id="encryption_time"></span></p>
+        <p><strong>Current Memory Usage (KB):</strong> <span id="current_memory"></span></p>
+        <p><strong>Peak Memory Usage (KB):</strong> <span id="peak_memory"></span></p>
+    </div>
+
+    <script>
+        // Handle File Decryption Form Submission
+        $("#decrypt-form").on("submit", function (event) {
+            event.preventDefault();
+    
+            const formData = new FormData();
+            const encryptedFile = $("#encrypted-file")[0].files[0];
+            const nonce = $("#nonce").val();
+            const tag = $("#tag").val();
+            const sessionKey = $("#session-key").val();
+    
+            if (!encryptedFile || !nonce || !tag || !sessionKey) {
+                alert("Please fill in all fields for decryption!");
+                return;
+            }
+    
+            formData.append("file", encryptedFile);
+            formData.append("nonce", nonce);
+            formData.append("tag", tag);
+            formData.append("session_key", sessionKey);
+    
+            console.log("Payload sent to /decrypt_file:", formData);
+    
+            $.ajax({
+                url: "/decrypt_file",
+                type: "POST",
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function (response) {
+                    $("#decryption-response")
+                        .removeClass("error")
+                        .addClass("success")
+                        .text("File decrypted successfully!")
+                        .fadeIn();
+    
+                    // Update decryption details
+                    $("#decrypted-file").text(response.decrypted_file);
+                    $("#encryption_time").text(response.encryption_time_ms)
+                    $("#current_memory").text(response.current_memory_kb)
+                    $("#peak_memory").text(response.peak_memory_kb);
+                    
+                    // Log decrypted file URL for debugging
+                    console.log("Decrypted File URL received from server:", response.download_url);
+    
+                    $("#download-decrypted-button")
+                        .attr("onclick", `window.location.href='${response.download_url}'`)
+                        .show();
+    
+                    $("#decryption-details").fadeIn();
+                },
+                error: function (xhr) {
+                    console.log("Error Response from Server:", xhr.responseText);
+                    $("#decryption-response")
+                        .removeClass("success")
+                        .addClass("error")
+                        .text(`Error: ${xhr.responseJSON.error}`)
+                        .fadeIn();
+                },
+            });
+        });
+    </script>
+    
+    <div class="button-container">
+        <a href="/" class="action-button">Back</a>
+    </div>
+</body>
+</html>

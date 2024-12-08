@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plaintext Encryption</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        form {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .message {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .success {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .error {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+    </style>
+</head>
+<body>
+    <h1>Plaintext Encryption</h1>
+
+    <!-- Session Key Exchange Section -->
+    <h2>Session Key Exchange</h2>
+    <button id="key-exchange-button">Perform Key Exchange</button>
+    <div id="key-exchange-result" class="message" style="display: none;"></div>
+
+    <!-- Display Session Key -->
+    <h2>Session Key</h2>
+    <div id="session-key-container" class="message" style="display: none;">
+        <p id="session-key-message">Your session key has been successfully generated. Share this key securely if needed.</p>
+        <p><strong>Session Key:</strong> <span id="session-key"></span></p>
+    </div>
+
+    <!-- Encrypt Data Section -->
+    <h2>Encrypt Data</h2>
+    <form id="encrypt-form">
+        <label for="plaintext">Plaintext:</label>
+        <input type="text" id="plaintext" name="plaintext" placeholder="Enter plaintext...">
+        <button type="submit">Encrypt</button>
+    </form>
+    <div id="encrypt-result" class="message" style="display: none;"></div>
+
+    <script>
+        // Perform Key Exchange
+        $("#key-exchange-button").on("click", function () {
+            console.log("Initiating key exchange...");
+            $.ajax({
+                url: "/key_exchange",
+                type: "POST",
+                success: function (response) {
+                    console.log("Key Exchange Success:", response);
+                    // Store session key in sessionStorage
+                    const sessionKey = response.session_key;
+                    sessionStorage.setItem("sessionKey", sessionKey);
+
+                    // Update the session key display
+                    $("#session-key-container").show(); // Make the container visible
+                    $("#session-key").text(sessionKey); // Display the session key
+
+                    $("#key-exchange-result")
+                        .removeClass("error")
+                        .addClass("success")
+                        .text("Session key exchange successful!")
+                        .fadeIn();
+                },
+                error: function (xhr, status, error) {
+                    console.error("Key Exchange Error:", error);
+                    $("#key-exchange-result")
+                        .removeClass("success")
+                        .addClass("error")
+                        .text("Failed to perform session key exchange. Please try again.")
+                        .fadeIn();
+                }
+            });
+        });
+
+        // Handle Encrypt Form Submission
+        $("#encrypt-form").on("submit", function (event) {
+            event.preventDefault(); // Prevent form submission
+
+            const plaintext = $("#plaintext").val();
+            const sessionKey = sessionStorage.getItem("sessionKey");
+
+            if (!plaintext) {
+                alert("Please enter plaintext to encrypt!");
+                return;
+            }
+
+            if (!sessionKey) {
+                alert("Session key not found. Perform key exchange first!");
+                return;
+            }
+
+            // Construct payload
+            const payload = {
+                plaintext: plaintext,
+                session_key: sessionKey
+            };
+
+            console.log("Payload Sent to Server for Encryption:", payload);
+
+            // Send AJAX request
+            $.ajax({
+                url: "/encrypt",
+                type: "POST",
+                contentType: "application/json",
+                data: JSON.stringify(payload),
+                success: function (response) {
+                    console.log("Encrypt Response:", response);
+
+                    const ciphertext = response.ciphertext;
+                    const nonce = response.nonce;
+                    const tag = response.tag;
+
+                    // Extract performance metrics
+                    const encryptionTime = response.encryption_time_ms;
+                    const currentMemory = response.current_memory_kb;
+                    const peakMemory = response.peak_memory_kb;
+
+                    // Display results with performance metrics
+                    $("#encrypt-result")
+                        .removeClass("error")
+                        .addClass("success")
+                        .html(`
+                            <p>Encrypted Data:</p>
+                            <p><strong>Ciphertext:</strong> ${ciphertext}</p>
+                            <p><strong>Nonce:</strong> ${nonce}</p>
+                            <p><strong>Tag:</strong> ${tag}</p>
+                            <p><strong>Encryption Time (ms):</strong> ${encryptionTime}</p>
+                            <p><strong>Current Memory Usage (KB):</strong> ${currentMemory}</p>
+                            <p><strong>Peak Memory Usage (KB):</strong> ${peakMemory}</p>
+                        `)
+                        .fadeIn();
+                },
+                error: function (xhr, status, error) {
+                    console.error("Encryption Error:", error);
+                    $("#encrypt-result")
+                        .removeClass("success")
+                        .addClass("error")
+                        .text("Encryption failed. Please try again.")
+                        .fadeIn();
+                }
+            });
+        });
+    </script>
+    <div class="button-container">
+        <a href="/" class="action-button">Back</a>
+    </div>
+</body>
+</html>

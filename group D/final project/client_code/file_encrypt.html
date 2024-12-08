@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Encryption</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        form {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"], input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .message {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .success {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .error {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .details {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>File Encryption</h1>
+
+    <!-- Session Key Exchange Section -->
+    <h2>Session Key Exchange</h2>
+    <button id="key-exchange-button">Perform Key Exchange</button>
+    <div id="key-exchange-result" class="message" style="display: none;"></div>
+
+    <!-- Display Session Key -->
+    <h2>Session Key</h2>
+    <div id="session-key-container" class="message" style="display: none;">
+        <p id="session-key-message">Your session key has been successfully generated. Share this key securely if needed.</p>
+        <p><strong>Session Key:</strong> <span id="session-key"></span></p>
+    </div>
+
+    <!-- File Encryption Form -->
+    <form id="upload-form" enctype="multipart/form-data">
+        <input type="file" id="file" name="file">
+        <button type="submit">Encrypt</button>
+    </form>
+    <div id="response" class="message" style="display: none;"></div>
+
+    <!-- Encryption Details Section -->
+    <div id="encryption-details" class="details message success" style="display: none;">
+        <h3>Encryption Details</h3>
+        <p><strong>Encrypted File Name:</strong> <span id="encrypted-file-name"></span></p>
+        <button id="download-button" style="display: none;">Download Encrypted File</button>
+        <p><strong>Nonce:</strong> <span id="nonce"></span></p>
+        <p><strong>Tag:</strong> <span id="tag"></span></p>
+        <p><strong>Encryption Time (ms):</strong> <span id="encryption_time"></span></p>
+        <p><strong>Current Memory Usage (KB):</strong> <span id="current_memory"></span></p>
+        <p><strong>Peak Memory Usage (KB):</strong> <span id="peak_memory"></span></p>
+    </div>
+
+    <script>
+        // Allowed file extensions and size
+        const allowedExtensions = ["txt", "pdf", "png", "jpg", "jpeg", "gif", "docx", "mp4", "mov", "zip"];
+        const maxFileSize = 1073741824; // 1GB in bytes
+
+        // Perform Key Exchange
+        $("#key-exchange-button").on("click", function () {
+            console.log("Initiating key exchange...");
+            $.ajax({
+                url: "/key_exchange",
+                type: "POST",
+                success: function (response) {
+                    console.log("Key Exchange Success:", response);
+                    const sessionKey = response.session_key;
+                    sessionStorage.setItem("sessionKey", sessionKey);
+
+                    // Update the session key display
+                    $("#session-key-container").show();
+                    $("#session-key").text(sessionKey);
+
+                    $("#key-exchange-result")
+                        .removeClass("error")
+                        .addClass("success")
+                        .text("Session key exchange successful!")
+                        .fadeIn();
+                },
+                error: function (xhr, status, error) {
+                    console.error("Key Exchange Error:", error);
+                    $("#key-exchange-result")
+                        .removeClass("success")
+                        .addClass("error")
+                        .text("Failed to perform session key exchange. Please try again.")
+                        .fadeIn();
+                }
+            });
+        });
+
+        // Handle File Upload Form Submission
+        $("#upload-form").on("submit", function (event) {
+            event.preventDefault();
+
+            const formData = new FormData();
+            const file = $("#file")[0].files[0];
+
+            if (!file) {
+                alert("Please select a file to upload.");
+                return;
+            }
+
+            // File size validation
+            if (file.size > maxFileSize) {
+                alert("The selected file exceeds the maximum size of 1GB. Please choose a smaller file.");
+                return;
+            }
+
+            // File extension validation
+            const fileExtension = file.name.split(".").pop().toLowerCase();
+            if (!allowedExtensions.includes(fileExtension)) {
+                alert(`Invalid file type. Allowed types are: ${allowedExtensions.join(", ")}`);
+                return;
+            }
+
+            formData.append("file", file);
+
+            $.ajax({
+                url: "/encrypt_file",
+                type: "POST",
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function (response) {
+                    $("#response")
+                        .removeClass("error")
+                        .addClass("success")
+                        .text("File encrypted successfully!")
+                        .fadeIn();
+
+                    // Update encryption details
+                    $("#encrypted-file-name").text(response.encrypted_file);
+                    $("#nonce").text(response.nonce);
+                    $("#tag").text(response.tag);
+                    $("#encryption_time").text(response.encryption_time_ms)
+                    $("#current_memory").text(response.current_memory_kb)
+                    $("#peak_memory").text(response.peak_memory_kb);
+
+                    console.log("Encrypted File URL received from server:", response.encrypted_file_url);
+
+                    // Update download button
+                    $("#download-button")
+                        .attr("onclick", `window.location.href='${response.encrypted_file_url}'`)
+                        .show();
+
+                    $("#encryption-details").fadeIn();
+                },
+                error: function (xhr) {
+                    $("#response")
+                        .removeClass("success")
+                        .addClass("error")
+                        .text(`Error: ${xhr.responseJSON.error}`)
+                        .fadeIn();
+                },
+            });
+        });
+    </script>
+    <div class="button-container">
+        <a href="/" class="action-button">Back</a>
+    </div>
+</body>
+</html>

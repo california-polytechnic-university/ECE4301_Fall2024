@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plaintext Decryption</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        form {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .message {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .success {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .error {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+    </style>
+</head>
+<body>
+    <h1>Plaintext Decryption</h1>
+
+    <!-- Decrypt Data -->
+    <form id="decrypt-form">
+        <label for="ciphertext">Ciphertext:</label>
+        <input type="text" id="ciphertext" name="ciphertext" placeholder="Enter ciphertext (base64)...">
+        <label for="nonce">Nonce:</label>
+        <input type="text" id="nonce" name="nonce" placeholder="Enter nonce (base64)...">
+        <label for="tag">Tag:</label>
+        <input type="text" id="tag" name="tag" placeholder="Enter tag (base64)...">
+        <label for="manual-session-key">Manual Session Key (optional):</label>
+        <input type="text" id="manual-session-key" name="manual-session-key" placeholder="Enter session key (base64)...">
+        <button type="submit">Decrypt</button>
+    </form>
+    <div id="decrypt-result" class="message" style="display: none;"></div>
+
+    <script>
+        // Handle Decrypt Form Submission
+        $("#decrypt-form").on("submit", function (event) {
+            event.preventDefault(); // Prevent default form submission
+
+            const ciphertext = $("#ciphertext").val();
+            const nonce = $("#nonce").val();
+            const tag = $("#tag").val();
+            const manualSessionKey = $("#manual-session-key").val(); // Get manual session key
+
+            // Debugging inputs
+            console.log("Decrypt Inputs:");
+            console.log("Ciphertext:", ciphertext);
+            console.log("Nonce:", nonce);
+            console.log("Tag:", tag);
+            console.log("Manual Session Key:", manualSessionKey);
+
+            if (!ciphertext || !nonce || !tag || !manualSessionKey) {
+                alert("Please fill in all fields for decryption!");
+                console.error("Missing required decryption fields.");
+                return;
+            }
+            session_key = manualSessionKey;
+            console.log("session key being sent to server:", session_key);
+            
+            // Construct payload
+            const payload = {
+                ciphertext: ciphertext,
+                nonce: nonce,
+                tag: tag,
+                session_key: manualSessionKey
+            };
+
+            console.log("Payload Sent to /decrypt:", payload); // Debugging log
+
+            // AJAX call to the decrypt route
+            $.ajax({
+                url: "/decrypt",
+                type: "POST",
+                contentType: "application/json",
+                data: JSON.stringify(payload),
+                success: function (response) {
+                    console.log("Decrypt Response:", response);
+
+                    const plaintext = response.plaintext;
+                    const decryptionTime = response.decryption_time_ms;
+                    const currentMemory = response.current_memory_kb;
+                    const peakMemory = response.peak_memory_kb;
+
+                    // Display decrypted result and metrics
+                    $("#decrypt-result")
+                        .removeClass("error")
+                        .addClass("success")
+                        .html(`
+                            <p>Decrypted Data:</p>
+                            <p><strong>Plaintext:</strong> ${plaintext}</p>
+                            <p><strong>Decryption Time (ms):</strong> ${decryptionTime}</p>
+                            <p><strong>Current Memory Usage (KB):</strong> ${currentMemory}</p>
+                            <p><strong>Peak Memory Usage (KB):</strong> ${peakMemory}</p>
+                        `)
+                        .fadeIn();
+                },
+                error: function (xhr, status, error) {
+                    console.error("Decryption Error:", error);
+                    $("#decrypt-result")
+                        .removeClass("success")
+                        .addClass("error")
+                        .text("Decryption failed. Please try again.")
+                        .fadeIn();
+                }
+            });
+        });
+    </script>
+    <div class="button-container">
+        <a href="/" class="action-button">Back</a>
+    </div>
+</body>
+</html>
