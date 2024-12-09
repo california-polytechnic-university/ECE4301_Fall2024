@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Lang Chat Room</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/elliptic/6.5.4/elliptic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+        <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #00ff00;
+            text-align: center;
+        }
+
+        #chat {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #333;
+            border-radius: 10px;
+            background-color: #1e1e1e;
+        }
+
+        #messages {
+            background-color: #2e2e2e;
+            padding: 10px;
+            border-radius: 5px;
+            height: 600px;
+            overflow-y: auto;
+            margin-bottom: 15px;
+        }
+        
+        #message-template {
+            display: none;
+        }
+
+        input[type="text"] {
+            width: calc(100% - 120px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #444;
+            background-color: #333;
+            color: #fff;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #00ff00;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #00cc00;
+        }
+    </style>
+</head>
+<body>
+    <h1>Golang Chat Room</h1>
+    <div id="chat">
+        <div id="messages" style="height: 500px; overflow-y: auto;"></div>
+        
+        <!-- Message Template (hidden) -->
+        <div id="message-template">
+            <p>
+                <strong class="username"></strong>
+                <span class="message"></span>
+            </p>
+        </div>
+        
+        <input type="text" id="username" placeholder="Username (16 Chars Max)" maxlength="16"/>
+        <input type="text" id="message" placeholder="Message (180 Chars Max)" maxlength="180"/>
+        <button onclick="sendMessage()">Send</button>
+    </div>
+    
+
+    <script>
+        
+        // Generate ECDSA key pair
+        const EC = elliptic.ec;
+        const ec = new EC('p521');
+        const myKeyPair = ec.genKeyPair();
+        const myPublicKey = myKeyPair.getPublic('hex');
+        const myPrivateKey = myKeyPair.getPrivate('hex');
+
+        console.log("My Public Key:", myPublicKey);
+        console.log("My Private Key:", myPrivateKey);
+        
+        let sharedKeys = {};
+        
+        const ws = new WebSocket("ws://172.20.10.3:8080/ws");
+        
+        ws.onopen = () => {
+            console.log('Connected to server');
+            
+            const message = {
+                type: "exchangePublicKeys",
+                senderPublicKey: myPublicKey
+            }
+            
+            ws.send(JSON.stringify(message));
+        };
+        
+        ws.onerror = (error) => {
+            console.error("WebSocket Error:", error);
+        };
+
+        ws.onclose = () => {
+            console.log('Disconnected to server');
+        };
+
+        ws.onmessage = (event) => {
+            const msg = JSON.parse(event.data);
+            console.log('Message received from server:', event.data);
+            
+            if(msg.type === "exchangePublicKeys"){
+                
+                const sharedKey = deriveSharedKey(msg.senderPublicKey);
+                
+                console.log("Shared Key:", sharedKey);
+
+                sharedKeys[msg.senderPublicKey] = sharedKey
+                
+                
+            }else if(msg.type === "encryptedMessage"){
+               
+                const startValidation = performance.now();
+                
+                const isValid = validateSignature(
+                    msg.senderPublicKey,
+                    msg.ciphertext, 
+                    msg.signature
+                );
+                
+                const endValidation = performance.now();
+                
+                console.log("Signature Valid:", isValid,
+                    (endValidation - startValidation).toFixed(2), "ms");
+
+                if (isValid) {
+                    
+                    const startDecryption = performance.now();
+                    
+                    const plaintext = decrypt(
+                        msg.ciphertext,
+                        sharedKeys[msg.senderPublicKey],
+                        msg.iv
+                    )
+                    
+                    const endDecryption = performance.now();
+                    
+                    console.log("Plaintext:", plaintext,
+                        (endDecryption - startDecryption).toFixed(2), "ms");
+                    
+                    appendMessage(msg.username, plaintext)
+                }
+            }
+        };
+        
+        function deriveSharedKey(publicKey){
+            return myKeyPair.derive(
+                ec.keyFromPublic(publicKey, 'hex').getPublic()
+            ).toString(16);
+        }
+        
+        function generateSignature(ciphertext){
+            return myKeyPair.sign(ciphertext).toDER('hex');
+        }
+        
+        function validateSignature(publicKey, ciphertext, signature){
+            return ec.keyFromPublic(
+                publicKey, 'hex'
+            ).verify(ciphertext, signature);
+        }
+        
+        function encrypt(plaintext, key, iv){
+            return CryptoJS.AES.encrypt(
+                plaintext,
+                CryptoJS.enc.Hex.parse(key),
+                { 
+                    mode: CryptoJS.mode.CTR, 
+                    padding: CryptoJS.pad.NoPadding, 
+                    iv 
+                }
+            ).ciphertext.toString();
+        }
+        
+        function decrypt(ciphertext, key, iv){
+            return CryptoJS.AES.decrypt(
+                { ciphertext: CryptoJS.enc.Hex.parse(ciphertext) },
+                CryptoJS.enc.Hex.parse(key),
+                {
+                    mode: CryptoJS.mode.CTR, 
+                    padding: CryptoJS.pad.NoPadding, 
+                    iv: CryptoJS.enc.Hex.parse(iv) 
+                }
+            ).toString(CryptoJS.enc.Utf8);
+        }
+        
+        // Function to append a new message using the template
+        function appendMessage(username, message) {
+            const template = document.getElementById('message-template');
+            const clone = template.cloneNode(true);
+
+            clone.removeAttribute("id")
+            clone.querySelector('.username').textContent = username + ": ";
+            clone.querySelector('.message').textContent = message;
+
+            const messagesDiv = document.getElementById('messages');
+            messagesDiv.appendChild(clone);
+
+            // Scroll to the bottom of the messages div
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }
+        
+
+        function sendMessage() {
+            const username = document.getElementById('username').value;
+            const plaintext = document.getElementById('message').value;
+            if (!username || !message) {
+                alert('Please enter both a username and a message');
+                return;
+            }
+
+            // Encrypt message for each connected client
+            for (const [receiverPublicKey, sharedKey] of Object.entries(sharedKeys)) {
+                
+                const iv = CryptoJS.lib.WordArray.random(16);
+                
+                // Encrypt the message
+                const startEncryption = performance.now();
+            
+                const ciphertext = encrypt(plaintext, sharedKey, iv);
+                
+                const endEncyption = performance.now();
+                
+                console.log("Ciphertext:", ciphertext,
+                    (endEncyption - startEncryption).toFixed(2), "ms");
+                
+                // Sign the encrypted message
+                const signature = generateSignature(ciphertext);
+
+                // Create the message payload
+                const message = {
+                    type: "encryptedMessage",
+                    username: username,
+                    ciphertext: ciphertext,
+                    senderPublicKey: myPublicKey,
+                    receiverPublicKey: receiverPublicKey,
+                    signature: signature,
+                    iv: iv.toString(CryptoJS.enc.Hex)
+
+                };
+
+                ws.send(JSON.stringify(message));
+            }
+            
+            //update DOM
+            appendMessage(username, plaintext)
+            document.getElementById('message').value = '';
+        }
+    </script>
+</body>
+</html>
