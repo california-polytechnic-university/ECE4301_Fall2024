@@ -1,0 +1,13 @@
+[package]
+name = "chat_client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossbeam = "0.8.4"
+crossbeam-utils = "0.8.20"
+rsa = "0.9.6"
+rand = "0.8.4"
+sec1 = { version = "0.7.3", features = ["pem"] }
+aes-gcm = "0.10.3"
+generic-array = "0.14.7"
