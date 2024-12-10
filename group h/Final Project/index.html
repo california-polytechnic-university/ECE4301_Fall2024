@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Chat Room</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/node-forge/dist/forge.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@nolanlawson/emoji-picker-element@1.0.4/emoji-picker-element.js"></script>
+<style>
+    :root {
+        --background-dark: #121212;
+        --background-light: #f5f5f5;
+        --text-dark: #ffffff;
+        --text-light: #000000;
+    }
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to bottom, #1e3a8a, #9333ea, #ec4899);
+        color: #fff;
+    }
+    
+    input[type="text"], input[type="password"], textarea {
+        flex: 1;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background: rgba(255, 255, 255, 0.3); /* Transparent background */
+        color: #fff; /* White text color */
+        outline: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+    }
+
+    input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
+        background: rgba(255, 255, 255, 0.3); /* Keep the transparent background on focus */
+        color: #fff; /* Keep text color white */
+        outline: 2px solid #3b82f6; /* Optional: Add a blue outline to indicate focus */
+    }
+   
+    .light-theme {
+        --background-dark: #f5f5f5;
+        --text-color: #fff;
+    }
+
+    #app-container {
+        display: flex;
+        width: 90%;
+        max-width: 1400px;
+        height: 80vh;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    }
+
+    #chat-box {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        margin-right: 10px;
+        overflow: hidden;
+    }
+
+    #participants-box {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    header {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.3);
+        padding: 15px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    #messages, #participants {
+        flex: 1;
+        overflow-y: auto;
+        padding: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        margin-bottom: 10px;
+        color: #fff;
+    }
+
+    textarea {
+        resize: vertical; /* Allow vertical resizing only */
+        min-height: 40px; /* Minimum height */
+        max-height: 200px; /* Maximum height */
+        flex: 1;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background: rgba(255, 255, 255, 0.3);
+        color: #fff;
+        outline: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+    }
+
+    button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        font-weight: bold;
+        background: #3b82f6;
+        color: #fff;
+        transition: background 0.3s ease;
+    }
+
+    button:hover {
+        background: #2563eb;
+    }
+
+    button:disabled {
+        background: rgba(255, 255, 255, 0.3);
+        color: rgba(255, 255, 255, 0.6);
+        cursor: not-allowed;
+    }
+
+    #username-input, #message-input {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    #avatar {
+        margin-right: 10px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    #emoji-picker {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        background-color: #ffffff15;
+        border: 1px solid #ffffff30;
+        border-radius: 10px;
+        padding: 10px;
+        max-width: 200px;
+        max-height: 100px;
+        overflow-y: auto;
+    }
+
+    #emoji-picker span {
+        cursor: pointer;
+        font-size: 1.2em;
+    }
+
+    #emoji-picker span:hover {
+        transform: scale(1.2);
+    }
+</style>
+</head>
+<body>
+    <div id="app-container">
+        <div id="chat-box">
+            <header>
+                <i class="fas fa-shield-alt"></i> Secure Chat Room
+            </header>
+            <div id="username-input">
+                <img id="avatar" src="https://via.placeholder.com/30" alt="Avatar">
+                <input type="text" id="username" placeholder="Enter Your Name">
+                <input type="password" id="password" placeholder="Enter Password">
+                <button id="join-button" onclick="joinChat()">Join</button>
+                <button id="leave-button" onclick="leaveChat()" style="display: none;">Leave</button>
+            </div>
+            <div id="messages"></div>
+            <div id="message-input" style="position: relative;">
+                <textarea id="message" placeholder="Enter Your Message"></textarea>
+                <button onclick="sendMessage()">Send</button>
+                <button onclick="clearChat()">Clear History</button>
+                <div id="emoji-picker">
+                    <span onclick="addEmoji('😀')">😀</span>
+                    <span onclick="addEmoji('😂')">😂</span>
+                    <span onclick="addEmoji('😍')">😍</span>
+                    <span onclick="addEmoji('👍')">👍</span>
+                    <span onclick="addEmoji('❤️')">❤️</span>
+                    <span onclick="addEmoji('🔥')">🔥</span>
+                    <span onclick="addEmoji('🎉')">🎉</span>
+                    <span onclick="addEmoji('🤔')">🤔</span>
+                    <span onclick="addEmoji('😎')">😎</span>
+                    <span onclick="addEmoji('💯')">💯</span>
+                </div>
+            </div>
+        </div>
+        <div id="participants-box">
+            <header>Participants</header>
+            <div id="participants"></div>
+        </div>
+    </div>
+
+<script>
+    const socket = io();
+    let clientKeyPair;
+    let sessionKey;
+    let isDarkMode = true;
+    
+            // Add emoji to the input field
+        function addEmoji(emoji) {
+            const messageInput = document.getElementById("message");
+            messageInput.value += emoji;
+            messageInput.focus();
+        }
+       
+        function clearChat() {
+            const messagesDiv = document.getElementById("messages");
+            messagesDiv.innerHTML = "";
+        }
+        
+        function updateAvatar() {
+            const username = document.getElementById("username").value;
+            const avatar = document.getElementById("avatar");
+            if (username) {
+                avatar.src = `https://robohash.org/${username}.png`;
+            }
+        }   
+        
+        document.getElementById("username").addEventListener("input", updateAvatar);             
+
+    function getCurrentTimestamp(format = "full") {
+        const now = new Date();
+        if (format === "full") {
+            // Full format: MM/DD/YYYY - HH:MM:SS
+            return `${now.toLocaleDateString()} - ${now.toLocaleTimeString()}`;
+        } else if (format === "time") {
+            // Time only: HH:MM:SS
+            return now.toLocaleTimeString();
+        }
+    }
+
+    function generateRSAKeys() {
+        const { privateKey, publicKey } = forge.pki.rsa.generateKeyPair(2048);
+        clientKeyPair = { privateKey, publicKey };
+        return forge.pki.publicKeyToPem(publicKey);
+    }
+
+    function joinChat() {
+        const username = document.getElementById("username").value.trim();
+        const password = document.getElementById("password").value.trim();
+
+        if (!username) {
+            alert("Please enter a username.");
+            return;
+        }
+
+        if (password !== "123456") {
+            alert("Incorrect password. Please try again.");
+            return;
+        }
+
+        const clientPublicKey = generateRSAKeys();
+        const timestamp = getCurrentTimestamp("full");
+
+        socket.emit("exchange_keys", { username, client_public_key: clientPublicKey, timestamp });
+
+        socket.on("server_keys", async (data) => {
+            try {
+                const encryptedSessionKey = forge.util.decode64(data.encrypted_session_key);
+                const decryptedSessionKey = clientKeyPair.privateKey.decrypt(encryptedSessionKey, "RSA-OAEP");
+                sessionKey = forge.util.createBuffer(decryptedSessionKey).bytes();
+
+                document.getElementById("join-button").disabled = true;
+                document.getElementById("leave-button").style.display = "inline-block";
+
+                socket.emit("join", { username, timestamp });
+            } catch (error) {
+                console.error("Session Key Decryption Error:", error);
+            }
+        });
+    }
+
+    socket.on("update_participants", (participants) => {
+        const participantsDiv = document.getElementById("participants");
+        participantsDiv.innerHTML = ""; // Clear previous list
+        participants.forEach((participant) => {
+            const participantElement = document.createElement("div");
+            participantElement.textContent = `${participant.name} (Joined at: ${participant.timestamp})`;
+            participantsDiv.appendChild(participantElement);
+        });
+    });
+
+    function encryptMessage(message) {
+        const iv = forge.random.getBytesSync(16);
+        const cipher = forge.cipher.createCipher('AES-CBC', sessionKey);
+        cipher.start({ iv });
+        cipher.update(forge.util.createBuffer(message, 'utf8'));
+        cipher.finish();
+
+        const encrypted = forge.util.encode64(iv + cipher.output.bytes());
+        return encrypted;
+    }
+
+    function decryptMessage(encryptedMessage) {
+        const bytes = forge.util.decode64(encryptedMessage);
+        const iv = bytes.slice(0, 16);
+        const encrypted = bytes.slice(16);
+
+        const decipher = forge.cipher.createDecipher('AES-CBC', sessionKey);
+        decipher.start({ iv });
+        decipher.update(forge.util.createBuffer(encrypted));
+        decipher.finish();
+
+        return decipher.output.toString('utf8');
+    }
+
+    function sendMessage() {
+        const username = document.getElementById("username").value.trim();
+        const message = document.getElementById("message").value.trim();
+        const timestamp = getCurrentTimestamp("time");
+
+        if (username && message) {
+            const encryptedMessage = encryptMessage(message);
+            socket.emit("message", { type: "user", username, message: encryptedMessage, timestamp });
+            document.getElementById("message").value = "";
+        }
+    }
+
+    function checkEnter(event) {
+        if (event.key === "Enter") {
+            sendMessage();
+        }
+    }
+
+    function leaveChat() {
+        const username = document.getElementById("username").value.trim();
+        const timestamp = getCurrentTimestamp("full");
+        if (username) {
+            socket.emit("leave", { username, timestamp });
+            document.getElementById("join-button").disabled = false;
+            document.getElementById("leave-button").style.display = "none";
+        }
+    }
+
+    socket.on("message", (data) => {
+        const messagesDiv = document.getElementById("messages");
+        const messageElement = document.createElement("div");
+
+        if (data.type === "user") {
+            try {
+                const decryptedMessage = decryptMessage(data.message);
+
+                // Create a container for the avatar and message
+                const messageContainer = document.createElement("div");
+                messageContainer.style.display = "flex";
+                messageContainer.style.alignItems = "center";
+
+                // Add avatar
+                const avatarImg = document.createElement("img");
+                avatarImg.src = data.avatar_url;
+                avatarImg.style.width = "40px";
+                avatarImg.style.height = "40px";
+                avatarImg.style.borderRadius = "50%";
+                avatarImg.style.marginRight = "10px";
+                messageContainer.appendChild(avatarImg);
+
+                // Add text content
+                const textContent = document.createElement("span");
+                textContent.textContent = `${data.timestamp} - ${data.username}: ${decryptedMessage}`;
+                messageContainer.appendChild(textContent);
+
+                messageElement.appendChild(messageContainer);
+            } catch (error) {
+                messageElement.textContent = `${data.username}: [Decryption Failed]`;
+            }
+        } else if (data.type === "system") {
+            messageElement.textContent = `${data.timestamp} - ${data.message}`;
+        }
+
+        messagesDiv.appendChild(messageElement);
+        messagesDiv.scrollTop = messagesDiv.scrollHeight; // Auto-scroll to latest message
+    });
+
+</script>
