@@ -1,0 +1,2943 @@
+Timestamp,Message
+2024-12-08 20:41:33.746561: Signature verification time: 0.001000 seconds
+2024-12-08 20:41:33.751575: Decryption time: 0.005014 seconds
+2024-12-08 20:41:33.752575: Signature verification time: 0.001000 seconds
+2024-12-08 20:41:33.752575: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.753576: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.753576: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.758576: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.758576: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.763606: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.763606: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.769247: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.769247: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.773888: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.775099: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.779099: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.780601: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.785126: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.785126: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.795642: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.795642: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.800643: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.801656: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.806251: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.806251: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.811763: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.811763: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.817342: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.817342: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.824364: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.824364: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.827754: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.827754: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.833257: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.833257: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.838520: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.838520: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.843527: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.844537: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.849541: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.849541: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.854857: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.854857: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.864882: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.864882: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.870421: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.870421: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.875520: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.876520: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.881024: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.881024: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.886605: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.886605: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.891621: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.891621: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.897675: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.897675: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.901689: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.903192: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.908269: Signature verification time: 0.001001 seconds
+2024-12-08 20:41:33.908269: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.913285: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.913285: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.918402: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.919403: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.930492: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.930492: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.934515: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.934515: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.939580: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.940580: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.945668: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.945668: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.951171: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.951171: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.956264: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.956264: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.961807: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.961807: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.966823: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.966823: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.971837: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.971837: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.977402: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.977402: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.982414: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.983415: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.993249: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.993249: Decryption time: 0.000000 seconds
+2024-12-08 20:41:33.998575: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:33.999576: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.004100: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.004100: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.009158: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.009158: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.015242: Signature verification time: 0.001059 seconds
+2024-12-08 20:41:34.015242: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.020745: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.020745: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.025322: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.026323: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.030826: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.030826: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.036397: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.036397: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.041903: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.041903: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.047429: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.047429: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.052447: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.052447: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.063085: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.063085: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.068608: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.068608: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.074136: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.074136: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.079302: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.079302: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.084367: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.084367: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.089589: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.089589: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.095575: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.095575: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.100576: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.100576: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.105405: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.106406: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.112420: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.112420: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.116059: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.117060: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.127043: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.127043: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.132576: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.132576: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.138081: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.138081: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.143095: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.144106: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.149113: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.149113: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.154147: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.154147: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.159229: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.159229: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.164264: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.165265: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.169780: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.169780: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.175487: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.175487: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.181502: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.181502: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.191851: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.191851: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.196425: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.197426: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.202440: Signature verification time: 0.001001 seconds
+2024-12-08 20:41:34.202440: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.207808: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.208809: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.211818: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.213321: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.218385: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.218385: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.223397: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.223397: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.228982: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.228982: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.234558: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.234558: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.239562: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.239562: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.244578: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.245645: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.250646: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.250646: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.261727: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.261727: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.266740: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.266740: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.271805: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.271805: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.277378: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.277378: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.282392: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.282392: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.287981: Signature verification time: 0.001000 seconds
+2024-12-08 20:41:34.287981: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.292495: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.293495: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.299178: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.299178: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.303195: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.304206: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.309257: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.309257: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.314281: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.314281: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.324383: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.325515: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.330517: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.330517: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.336034: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.336034: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.341562: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.341562: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.346159: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.347160: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.351672: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.351672: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.357253: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.357253: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.364298: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.364298: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.367812: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.367812: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.373333: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.373333: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.378354: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.378354: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.389443: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.389443: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.394160: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.395228: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.400731: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.400731: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.405336: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.405336: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.410839: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.410839: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.415375: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.416878: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.421394: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.421394: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.426481: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.426481: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.431493: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.432494: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.440693: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.440693: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.441963: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.441963: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.448527: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.448527: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.458636: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.458636: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.464180: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.464180: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.469693: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.469693: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.474585: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.474585: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.479654: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.480654: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.486576: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.486576: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.490577: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.490577: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.496345: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.496345: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.501383: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.501383: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.506450: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.507450: Decryption time: 0.001000 seconds
+2024-12-08 20:41:34.512464: Signature verification time: 0.001000 seconds
+2024-12-08 20:41:34.512464: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.523350: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.523350: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.528594: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.528594: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.533606: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.533606: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.540671: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.540671: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.544211: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.544211: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.549283: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.549283: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.555383: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.555383: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.560384: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.560384: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.565423: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.565423: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.570443: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.571452: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.576542: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.576542: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.586829: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.587830: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.591843: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.591843: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.597428: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.597428: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.602441: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.603441: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.608412: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.608412: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.613428: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.613428: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.618576: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.619577: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.624650: Signature verification time: 0.001065 seconds
+2024-12-08 20:41:34.624650: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.629650: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.629650: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.634656: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.635656: Decryption time: 0.001000 seconds
+2024-12-08 20:41:34.643173: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.643173: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.650523: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.651564: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.656637: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.656637: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.661648: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.661648: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.667163: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.667163: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.673196: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.673196: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.677495: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.678496: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.683511: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.683511: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.688753: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.688753: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.694278: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.694278: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.699362: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.699362: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.704380: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.704380: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.709546: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.710547: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.720640: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.720640: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.725370: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.726371: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.731385: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.731385: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.737558: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.738559: Decryption time: 0.001000 seconds
+2024-12-08 20:41:34.741570: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.742571: Decryption time: 0.001001 seconds
+2024-12-08 20:41:34.747825: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.748826: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.754836: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.754836: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.759837: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.759837: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.764362: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.764362: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.768393: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.768393: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.774412: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.775466: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.784484: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.784484: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.790397: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.790397: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.794421: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.795853: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.800356: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.801368: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.806460: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.806460: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.811476: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.811476: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.817567: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.817567: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.821599: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.822600: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.827684: Signature verification time: 0.001001 seconds
+2024-12-08 20:41:34.827684: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.832187: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.833187: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.838159: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.838159: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.849195: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.849195: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.854222: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.854222: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.867350: Signature verification time: 0.001000 seconds
+2024-12-08 20:41:34.867350: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.867350: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.867350: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.873456: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.873456: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.875875: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.875875: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.880378: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.881389: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.886481: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.886481: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.891506: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.891506: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.896585: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.896585: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.902602: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.902602: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.907831: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.907831: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.918445: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.918445: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.923483: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.923483: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.928642: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.928642: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.934177: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.934177: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.939326: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.939326: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.944364: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.945436: Decryption time: 0.001071 seconds
+2024-12-08 20:41:34.950436: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.950436: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.955553: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.955553: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.960554: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.961587: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.973216: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.973216: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.974223: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.974223: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.981766: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.981766: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.987342: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.988342: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.993357: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:34.993357: Decryption time: 0.000000 seconds
+2024-12-08 20:41:34.998589: Signature verification time: 0.001001 seconds
+2024-12-08 20:41:34.998589: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.003601: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.003601: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.009667: Signature verification time: 0.001000 seconds
+2024-12-08 20:41:35.009667: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.014471: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.014471: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.019551: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.019551: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.024516: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.025584: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.030584: Signature verification time: 0.001001 seconds
+2024-12-08 20:41:35.030584: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.035662: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.035662: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.047287: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.047287: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.051801: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.051801: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.057372: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.057372: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.062383: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.062383: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.067392: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.067392: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.073418: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.073418: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.078757: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.078757: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.083271: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.084280: Decryption time: 0.001009 seconds
+2024-12-08 20:41:35.089284: Signature verification time: 0.001000 seconds
+2024-12-08 20:41:35.089284: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.094305: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.094305: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.099374: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.100374: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.105679: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.105679: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.115304: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.116305: Decryption time: 0.001001 seconds
+2024-12-08 20:41:35.120807: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.120807: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.126396: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.126396: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.131504: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.131504: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.136637: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.137638: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.141861: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.141861: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.147703: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.147703: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.154309: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.154309: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.158759: Signature verification time: 0.001000 seconds
+2024-12-08 20:41:35.158759: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.163506: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.163506: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.169548: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.169548: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.179318: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.179318: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.184357: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.185748: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.190750: Signature verification time: 0.001001 seconds
+2024-12-08 20:41:35.190750: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.195365: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.196366: Decryption time: 0.001001 seconds
+2024-12-08 20:41:35.200366: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.201848: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.206362: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.206362: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.211376: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.212377: Decryption time: 0.001001 seconds
+2024-12-08 20:41:35.217483: Signature verification time: 0.001000 seconds
+2024-12-08 20:41:35.217483: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.222494: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.222494: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.229015: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.229015: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.233529: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.233529: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.243152: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.244190: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.249604: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.249604: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.254307: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.254307: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.259807: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.259807: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.265364: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.266365: Decryption time: 0.001001 seconds
+2024-12-08 20:41:35.270391: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.270391: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.275638: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.275638: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.281652: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.281652: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.286218: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.287219: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.291729: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.291729: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.297300: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.297300: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.301811: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.301811: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.313478: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.313478: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.318871: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.318871: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.324524: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.324524: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.329527: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.329527: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.334548: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.334548: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.344143: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.345144: Decryption time: 0.001001 seconds
+2024-12-08 20:41:35.345144: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.346144: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.350650: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.350650: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.356458: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.356458: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.362473: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.362473: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.366596: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.366596: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.377334: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.377334: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.381847: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.383350: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.388632: Signature verification time: 0.001000 seconds
+2024-12-08 20:41:35.388632: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.393146: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.393146: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.399410: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.399410: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.403597: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.404664: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.409664: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.409664: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.415335: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.415335: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.420349: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.420349: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.425437: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.425437: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.430439: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.430439: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.441540: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.441540: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.446785: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.446785: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.452291: Signature verification time: 0.001001 seconds
+2024-12-08 20:41:35.452291: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.457665: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.457665: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.461831: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.463334: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.467858: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.467858: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.473382: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.473382: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.478531: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.478531: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.483543: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.484571: Decryption time: 0.001028 seconds
+2024-12-08 20:41:35.491587: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.492587: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.494638: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.494638: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.505235: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.505235: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.510739: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.510739: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.516320: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.516320: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.521833: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.521833: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.526410: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.526410: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.532424: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.532424: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.537692: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.537692: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.543613: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.543613: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.548116: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.548116: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.554163: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.554163: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.559167: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.559167: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.564192: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.564192: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.574242: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.575314: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.579314: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.579314: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.585559: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.585559: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.593575: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.593575: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.596282: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.596282: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.601822: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.601822: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.606394: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.607394: Decryption time: 0.000000 seconds
+2024-12-08 20:41:35.612408: Signature verification time: 0.000000 seconds
+2024-12-08 20:41:35.612408: Decryption time: 0.000000 seconds
+2024-12-08 20:41:49.742309: Encryption time: 0.004508 seconds
+2024-12-08 20:41:49.744309: Signing time: 0.001001 seconds
+2024-12-08 20:41:49.745308: Sending time: 0.001000 seconds
+2024-12-08 20:41:49.745308: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.746309: Signing time: 0.001001 seconds
+2024-12-08 20:41:49.746309: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.746309: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.747309: Signing time: 0.001000 seconds
+2024-12-08 20:41:49.747309: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.758826: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.759826: Signing time: 0.000000 seconds
+2024-12-08 20:41:49.759826: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.759826: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.760826: Signing time: 0.001000 seconds
+2024-12-08 20:41:49.760826: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.760826: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.761952: Signing time: 0.001126 seconds
+2024-12-08 20:41:49.761952: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.778945: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.778945: Signing time: 0.000000 seconds
+2024-12-08 20:41:49.780448: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.780448: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.781460: Signing time: 0.000000 seconds
+2024-12-08 20:41:49.781460: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.781460: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.782462: Signing time: 0.001001 seconds
+2024-12-08 20:41:49.782462: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.789464: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.789464: Signing time: 0.000000 seconds
+2024-12-08 20:41:49.790464: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.790464: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.790464: Signing time: 0.000000 seconds
+2024-12-08 20:41:49.791701: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.791701: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.792700: Signing time: 0.001000 seconds
+2024-12-08 20:41:49.792700: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.809714: Encryption time: 0.001000 seconds
+2024-12-08 20:41:49.809714: Signing time: 0.000000 seconds
+2024-12-08 20:41:49.810714: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.810714: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.811219: Signing time: 0.000505 seconds
+2024-12-08 20:41:49.811219: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.812222: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.812222: Signing time: 0.000000 seconds
+2024-12-08 20:41:49.813221: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.829068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.830570: Signing time: 0.001503 seconds
+2024-12-08 20:41:49.831081: Sending time: 0.000510 seconds
+2024-12-08 20:41:49.831081: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.831081: Signing time: 0.000000 seconds
+2024-12-08 20:41:49.832089: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.832089: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.833090: Signing time: 0.001001 seconds
+2024-12-08 20:41:49.833090: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.839091: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.840595: Signing time: 0.001503 seconds
+2024-12-08 20:41:49.840595: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.841608: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.841608: Signing time: 0.000000 seconds
+2024-12-08 20:41:49.842608: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.842608: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.842608: Signing time: 0.000000 seconds
+2024-12-08 20:41:49.843608: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.859775: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.861279: Signing time: 0.001503 seconds
+2024-12-08 20:41:49.861279: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.861279: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.862281: Signing time: 0.001002 seconds
+2024-12-08 20:41:49.862281: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.862281: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.863281: Signing time: 0.001000 seconds
+2024-12-08 20:41:49.863281: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.880571: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.881582: Signing time: 0.001011 seconds
+2024-12-08 20:41:49.881582: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.881582: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.882582: Signing time: 0.001000 seconds
+2024-12-08 20:41:49.882582: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.882582: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.883583: Signing time: 0.001001 seconds
+2024-12-08 20:41:49.883583: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.900589: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.901601: Signing time: 0.001012 seconds
+2024-12-08 20:41:49.901601: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.902600: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.902600: Signing time: 0.000000 seconds
+2024-12-08 20:41:49.903601: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.903601: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.904601: Signing time: 0.001001 seconds
+2024-12-08 20:41:49.904601: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.910602: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.911616: Signing time: 0.001014 seconds
+2024-12-08 20:41:49.912615: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.912615: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.912615: Signing time: 0.000000 seconds
+2024-12-08 20:41:49.913615: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.913615: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.914615: Signing time: 0.001000 seconds
+2024-12-08 20:41:49.914615: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.931142: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.932579: Signing time: 0.000000 seconds
+2024-12-08 20:41:49.932579: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.932579: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.933580: Signing time: 0.001001 seconds
+2024-12-08 20:41:49.933580: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.933580: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.934580: Signing time: 0.001000 seconds
+2024-12-08 20:41:49.934580: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.951644: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.952645: Signing time: 0.001001 seconds
+2024-12-08 20:41:49.952645: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.952645: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.953645: Signing time: 0.001000 seconds
+2024-12-08 20:41:49.953645: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.954645: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.954645: Signing time: 0.000000 seconds
+2024-12-08 20:41:49.954645: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.961659: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.962658: Signing time: 0.000999 seconds
+2024-12-08 20:41:49.962658: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.962658: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.963659: Signing time: 0.001001 seconds
+2024-12-08 20:41:49.963659: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.963659: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.964660: Signing time: 0.001000 seconds
+2024-12-08 20:41:49.964660: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.981686: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.982686: Signing time: 0.001000 seconds
+2024-12-08 20:41:49.983688: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.983688: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.983688: Signing time: 0.000000 seconds
+2024-12-08 20:41:49.984687: Sending time: 0.000000 seconds
+2024-12-08 20:41:49.984687: Encryption time: 0.000000 seconds
+2024-12-08 20:41:49.984687: Signing time: 0.000000 seconds
+2024-12-08 20:41:49.985687: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.002715: Encryption time: 0.001000 seconds
+2024-12-08 20:41:50.003716: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.003716: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.003716: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.004716: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.004716: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.004716: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.005717: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.005717: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.022751: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.023751: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.023751: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.023751: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.024752: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.024752: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.024752: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.025752: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.025752: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.032562: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.033562: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.033562: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.034563: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.034563: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.034563: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.035563: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.035563: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.036563: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.053084: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.054084: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.054084: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.054084: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.055085: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.055085: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.056085: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.056085: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.056085: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.073576: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.074577: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.074577: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.074577: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.075577: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.075577: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.075577: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.076577: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.076577: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.083592: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.084592: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.084592: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.084592: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.085593: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.085593: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.085593: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.086593: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.086593: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.103753: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.104754: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.104754: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.104754: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.106755: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.106755: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.106755: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.107755: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.107755: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.124449: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.125450: Signing time: 0.001002 seconds
+2024-12-08 20:41:50.125450: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.125450: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.126449: Signing time: 0.000999 seconds
+2024-12-08 20:41:50.126449: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.126449: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.127450: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.127450: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.144584: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.145585: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.145585: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.145585: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.146585: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.146585: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.146585: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.147585: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.147585: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.154598: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.155598: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.155598: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.155598: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.156599: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.156599: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.157602: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.157602: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.157602: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.174637: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.175638: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.175638: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.176639: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.176639: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.177638: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.177638: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.177638: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.178638: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.195664: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.196665: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.196665: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.196665: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.197665: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.197665: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.197665: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.198665: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.198665: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.205600: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.206600: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.206600: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.206600: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.207601: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.207601: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.208600: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.208600: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.209601: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.225585: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.226586: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.226586: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.227586: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.227586: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.227586: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.228587: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.228587: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.229587: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.246576: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.246576: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.247577: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.247577: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.248577: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.248577: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.248577: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.249577: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.249577: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.266067: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.267068: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.268069: Sending time: 0.001001 seconds
+2024-12-08 20:41:50.268069: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.269069: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.269069: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.269069: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.269069: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.269069: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.276593: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.277593: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.277593: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.277593: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.278594: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.278594: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.278594: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.279594: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.279594: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.297068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.298069: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.298069: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.298069: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.299069: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.299069: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.299069: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.300573: Signing time: 0.001504 seconds
+2024-12-08 20:41:50.300573: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.316862: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.317862: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.317862: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.318863: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.318863: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.318863: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.318863: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.320366: Signing time: 0.001503 seconds
+2024-12-08 20:41:50.320366: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.327848: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.327848: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.328849: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.328849: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.328849: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.328849: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.328849: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.330352: Signing time: 0.001503 seconds
+2024-12-08 20:41:50.330352: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.347577: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.348577: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.348577: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.349577: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.349577: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.350578: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.350578: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.351082: Signing time: 0.000505 seconds
+2024-12-08 20:41:50.351082: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.368070: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.369071: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.369071: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.369071: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.369071: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.370573: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.370573: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.371582: Signing time: 0.001009 seconds
+2024-12-08 20:41:50.371582: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.388597: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.389597: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.389597: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.389597: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.390597: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.390597: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.391101: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.391101: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.392103: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.398103: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.399103: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.399103: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.399103: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.400606: Signing time: 0.001503 seconds
+2024-12-08 20:41:50.400606: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.400606: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.402054: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.402054: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.418471: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.419472: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.419472: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.420472: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.420976: Signing time: 0.000504 seconds
+2024-12-08 20:41:50.420976: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.420976: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.421979: Signing time: 0.001004 seconds
+2024-12-08 20:41:50.421979: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.438958: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.440461: Signing time: 0.001503 seconds
+2024-12-08 20:41:50.440461: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.440461: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.441473: Signing time: 0.001012 seconds
+2024-12-08 20:41:50.441473: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.441473: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.442534: Signing time: 0.001061 seconds
+2024-12-08 20:41:50.442534: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.449537: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.450537: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.450537: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.451042: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.451042: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.451042: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.452044: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.452044: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.452044: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.469561: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.470561: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.471065: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.471065: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.471065: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.472067: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.472067: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.473067: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.473067: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.489065: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.490567: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.491584: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.491584: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.491584: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.492584: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.492584: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.493584: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.493584: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.510359: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.511379: Signing time: 0.001020 seconds
+2024-12-08 20:41:50.511379: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.511379: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.512380: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.512380: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.512380: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.513382: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.513382: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.520383: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.521403: Signing time: 0.001020 seconds
+2024-12-08 20:41:50.521403: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.521403: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.522404: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.522404: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.522404: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.523405: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.523405: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.540573: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.541586: Signing time: 0.001013 seconds
+2024-12-08 20:41:50.541586: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.541586: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.542588: Signing time: 0.001002 seconds
+2024-12-08 20:41:50.542588: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.542588: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.543588: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.543588: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.561108: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.562126: Signing time: 0.001019 seconds
+2024-12-08 20:41:50.562126: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.562126: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.563127: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.563127: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.564128: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.564128: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.564128: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.571676: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.571676: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.572675: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.572675: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.573676: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.573676: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.573676: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.574676: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.574676: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.591195: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.592567: Signing time: 0.001371 seconds
+2024-12-08 20:41:50.592567: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.592567: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.593567: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.593567: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.593567: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.594567: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.594567: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.611662: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.612662: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.612662: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.612662: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.613663: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.613663: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.613663: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.614663: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.614663: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.631718: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.632728: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.633729: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.633729: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.634729: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.634729: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.634729: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.635729: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.635729: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.642768: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.642768: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.643769: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.643769: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.644769: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.644769: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.644769: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.645769: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.645769: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.662799: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.663800: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.663800: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.663800: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.664800: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.665800: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.665800: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.666802: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.666802: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.682996: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.683997: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.683997: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.683997: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.684997: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.684997: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.684997: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.685998: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.685998: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.693568: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.693568: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.694568: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.694568: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.694568: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.695568: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.695568: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.696569: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.696569: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.713580: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.714580: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.714580: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.714580: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.715580: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.715580: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.715580: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.716581: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.716581: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.733627: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.734628: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.734628: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.735628: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.735628: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.735628: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.736628: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.736628: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.737629: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.753657: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.754658: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.755658: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.755658: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.755658: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.756658: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.756658: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.756658: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.757659: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.764670: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.764670: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.765671: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.765671: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.765671: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.766670: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.766670: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.767670: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.767670: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.785035: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.785035: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.786036: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.786036: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.787037: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.787037: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.787037: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.788037: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.788037: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.804566: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.805567: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.805567: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.806567: Encryption time: 0.001000 seconds
+2024-12-08 20:41:50.806567: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.807568: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.807568: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.808567: Signing time: 0.000999 seconds
+2024-12-08 20:41:50.808567: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.815072: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.816072: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.816072: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.816072: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.817072: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.817072: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.817072: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.818072: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.818072: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.835768: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.835768: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.836767: Sending time: 0.001000 seconds
+2024-12-08 20:41:50.836767: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.837768: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.837768: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.837768: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.838769: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.838769: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.856069: Encryption time: 0.001000 seconds
+2024-12-08 20:41:50.857069: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.857069: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.857069: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.858070: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.858070: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.858070: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.859071: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.859071: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.876060: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.877060: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.877060: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.877060: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.878060: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.878060: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.878060: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.879060: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.879060: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.886065: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.887066: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.887066: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.887066: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.888065: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.888065: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.889065: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.889065: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.889065: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.906593: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.907593: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.907593: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.907593: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.908594: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.908594: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.908594: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.909594: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.909594: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.927072: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.928073: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.928073: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.928073: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.929073: Signing time: 0.001001 seconds
+2024-12-08 20:41:50.929073: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.929073: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.929073: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.930577: Sending time: 0.001503 seconds
+2024-12-08 20:41:50.936949: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.937950: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.937950: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.937950: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.938950: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.938950: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.938950: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.940453: Signing time: 0.001503 seconds
+2024-12-08 20:41:50.940453: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.957566: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.958567: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.958567: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.958567: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.959567: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.959567: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.959567: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.960567: Signing time: 0.001000 seconds
+2024-12-08 20:41:50.961071: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.978069: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.978069: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.978069: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.979069: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.979069: Signing time: 0.000000 seconds
+2024-12-08 20:41:50.979069: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.979069: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.980573: Signing time: 0.001503 seconds
+2024-12-08 20:41:50.980573: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.997607: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.998607: Signing time: 0.000999 seconds
+2024-12-08 20:41:50.999608: Sending time: 0.000000 seconds
+2024-12-08 20:41:50.999608: Encryption time: 0.000000 seconds
+2024-12-08 20:41:50.999608: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.000607: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.000607: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.001111: Signing time: 0.000503 seconds
+2024-12-08 20:41:51.001111: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.008113: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.009114: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.009114: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.009114: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.010617: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.010617: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.010617: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.011638: Signing time: 0.001021 seconds
+2024-12-08 20:41:51.011638: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.028650: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.029651: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.029651: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.029651: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.030651: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.030651: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.030651: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.031681: Signing time: 0.001030 seconds
+2024-12-08 20:41:51.031681: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.048904: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.048904: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.048904: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.050407: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.050407: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.050407: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.051418: Encryption time: 0.001011 seconds
+2024-12-08 20:41:51.051418: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.052420: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.058422: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.059423: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.059423: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.060423: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.060928: Signing time: 0.000504 seconds
+2024-12-08 20:41:51.060928: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.060928: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.061930: Signing time: 0.001002 seconds
+2024-12-08 20:41:51.061930: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.079565: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.080564: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.080564: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.080564: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.081069: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.081069: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.082070: Encryption time: 0.001002 seconds
+2024-12-08 20:41:51.082070: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.083070: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.099587: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.100588: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.100588: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.101092: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.101092: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.102094: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.102094: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.103094: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.103094: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.119061: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.120563: Signing time: 0.001503 seconds
+2024-12-08 20:41:51.120563: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.121586: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.121586: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.122585: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.122585: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.122585: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.123586: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.129586: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.130587: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.130587: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.130587: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.131750: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.131750: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.132784: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.132784: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.132784: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.150462: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.151473: Signing time: 0.001011 seconds
+2024-12-08 20:41:51.151473: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.151473: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.152474: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.152474: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.152474: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.153475: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.153475: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.170595: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.171607: Signing time: 0.001012 seconds
+2024-12-08 20:41:51.171607: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.171607: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.172607: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.172607: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.172607: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.173607: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.173607: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.180608: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.181617: Signing time: 0.001009 seconds
+2024-12-08 20:41:51.181617: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.181617: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.182618: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.183622: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.183622: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.184618: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.184618: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.201138: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.202141: Signing time: 0.001002 seconds
+2024-12-08 20:41:51.202141: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.202141: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.203140: Signing time: 0.000999 seconds
+2024-12-08 20:41:51.203140: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.203140: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.204140: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.204140: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.221558: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.222558: Signing time: 0.000999 seconds
+2024-12-08 20:41:51.222558: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.222558: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.223559: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.223559: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.224559: Encryption time: 0.001000 seconds
+2024-12-08 20:41:51.224559: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.224559: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.241597: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.242597: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.242597: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.242597: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.243598: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.243598: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.244598: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.244598: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.244598: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.251616: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.252619: Signing time: 0.001003 seconds
+2024-12-08 20:41:51.252619: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.253616: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.253616: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.253616: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.254617: Encryption time: 0.001001 seconds
+2024-12-08 20:41:51.254617: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.255617: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.272135: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.273136: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.273136: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.273136: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.274137: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.274137: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.274137: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.275137: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.275137: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.292066: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.293067: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.294068: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.294068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.294068: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.295068: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.295068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.296068: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.296068: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.303068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.304068: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.304068: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.304068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.305068: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.305068: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.305068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.306068: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.306068: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.323088: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.324089: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.324089: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.324089: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.325089: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.325089: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.325089: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.326089: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.326089: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.343109: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.344109: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.344109: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.344109: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.345110: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.345110: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.346110: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.346110: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.347110: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.364071: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.364071: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.365072: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.365072: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.366072: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.366072: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.366072: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.367073: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.367073: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.374072: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.375074: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.375074: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.375074: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.376073: Signing time: 0.000999 seconds
+2024-12-08 20:41:51.376073: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.376073: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.377073: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.377073: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.394072: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.395073: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.395073: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.395073: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.396074: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.396074: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.397074: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.397074: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.397074: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.414066: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.415067: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.416067: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.416067: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.417067: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.417067: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.417067: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.418068: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.418068: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.425090: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.425090: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.425090: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.426090: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.426090: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.427091: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.427091: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.428091: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.428091: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.444619: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.445619: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.445619: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.446619: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.446619: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.447620: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.447620: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.447620: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.448620: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.464813: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.465813: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.466814: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.466814: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.466814: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.467814: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.467814: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.468815: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.468815: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.485842: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.485842: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.486843: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.486843: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.487843: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.487843: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.487843: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.488843: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.488843: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.495561: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.496561: Signing time: 0.000999 seconds
+2024-12-08 20:41:51.496561: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.496561: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.497562: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.497562: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.497562: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.498562: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.498562: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.515565: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.516565: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.517566: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.517566: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.517566: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.518565: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.518565: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.519566: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.519566: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.535904: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.536904: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.537905: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.537905: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.537905: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.538906: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.538906: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.538906: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.538906: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.546797: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.547798: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.547798: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.547798: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.548798: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.548798: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.548798: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.549799: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.549799: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.566804: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.567804: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.567804: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.567804: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.568804: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.568804: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.568804: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.569805: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.569805: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.587627: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.587627: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.588628: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.588628: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.589627: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.589627: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.589627: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.590628: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.591132: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.607610: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.608611: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.608611: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.608611: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.609611: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.609611: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.609611: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.610611: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.611115: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.617117: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.618117: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.618117: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.619118: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.619118: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.619118: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.619118: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.620622: Signing time: 0.001504 seconds
+2024-12-08 20:41:51.620622: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.637975: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.638975: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.638975: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.638975: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.638975: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.638975: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.640478: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.640478: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.641488: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.658566: Encryption time: 0.001000 seconds
+2024-12-08 20:41:51.658566: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.659566: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.659566: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.660567: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.660567: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.660567: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.661610: Signing time: 0.001044 seconds
+2024-12-08 20:41:51.661610: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.668610: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.669611: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.669611: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.669611: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.670612: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.671116: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.671116: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.671116: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.672118: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.689064: Encryption time: 0.001000 seconds
+2024-12-08 20:41:51.689064: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.689064: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.689064: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.690568: Signing time: 0.001503 seconds
+2024-12-08 20:41:51.690568: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.690568: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.691588: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.691588: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.708603: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.709603: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.709603: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.710604: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.711107: Signing time: 0.000503 seconds
+2024-12-08 20:41:51.711107: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.711107: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.712109: Signing time: 0.001002 seconds
+2024-12-08 20:41:51.712109: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.729064: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.730567: Signing time: 0.001503 seconds
+2024-12-08 20:41:51.730567: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.730567: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.730567: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.732082: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.732082: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.732082: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.733091: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.739093: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.740596: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.740596: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.740596: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.741608: Signing time: 0.001012 seconds
+2024-12-08 20:41:51.741608: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.741608: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.742607: Signing time: 0.000999 seconds
+2024-12-08 20:41:51.742607: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.759623: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.761129: Signing time: 0.001002 seconds
+2024-12-08 20:41:51.761129: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.761129: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.762129: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.762129: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.762129: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.763130: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.763130: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.780683: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.781188: Signing time: 0.000504 seconds
+2024-12-08 20:41:51.781188: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.781188: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.782190: Signing time: 0.001003 seconds
+2024-12-08 20:41:51.782190: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.783190: Encryption time: 0.000999 seconds
+2024-12-08 20:41:51.783190: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.784190: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.790693: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.790693: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.790693: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.790693: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.792079: Signing time: 0.001387 seconds
+2024-12-08 20:41:51.792079: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.793081: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.793081: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.794081: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.810598: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.811613: Signing time: 0.001015 seconds
+2024-12-08 20:41:51.811613: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.811613: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.812612: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.812612: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.813613: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.813613: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.813613: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.830630: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.832146: Signing time: 0.001516 seconds
+2024-12-08 20:41:51.832146: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.832146: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.833158: Signing time: 0.001012 seconds
+2024-12-08 20:41:51.833158: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.833158: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.834159: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.834159: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.851693: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.852694: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.852694: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.852694: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.853694: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.853694: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.853694: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.854694: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.854694: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.861710: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.861710: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.862710: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.862710: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.863711: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.863711: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.863711: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.864711: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.864711: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.882092: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.882092: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.883093: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.883093: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.884093: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.884093: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.884093: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.885093: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.885093: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.902066: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.903068: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.903068: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.903068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.904068: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.904068: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.904068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.905068: Signing time: 0.001000 seconds
+2024-12-08 20:41:51.905068: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.912069: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.913071: Signing time: 0.001002 seconds
+2024-12-08 20:41:51.913071: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.913071: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.914070: Signing time: 0.000999 seconds
+2024-12-08 20:41:51.914070: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.914070: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.915070: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.915070: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.932103: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.933113: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.934114: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.934114: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.934114: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.935114: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.935114: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.936115: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.936115: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.953066: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.954067: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.954067: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.954067: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.955068: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.955068: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.955068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.956067: Signing time: 0.000999 seconds
+2024-12-08 20:41:51.956067: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.973067: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.974067: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.974067: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.975067: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.975067: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.976068: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.976068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.977068: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.977068: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.983069: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.984070: Signing time: 0.001001 seconds
+2024-12-08 20:41:51.984070: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.985070: Encryption time: 0.000000 seconds
+2024-12-08 20:41:51.985070: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.985070: Sending time: 0.000000 seconds
+2024-12-08 20:41:51.986070: Encryption time: 0.001001 seconds
+2024-12-08 20:41:51.986070: Signing time: 0.000000 seconds
+2024-12-08 20:41:51.986070: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.004064: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.004064: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.005064: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.005064: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.005064: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.006065: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.006065: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.007064: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.007064: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.024067: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.025067: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.025067: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.025067: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.026068: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.026068: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.026068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.027068: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.027068: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.034097: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.035097: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.035097: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.035097: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.036098: Signing time: 0.001001 seconds
+2024-12-08 20:41:52.036098: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.037098: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.037098: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.037098: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.054068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.055069: Signing time: 0.001001 seconds
+2024-12-08 20:41:52.055069: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.056069: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.056069: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.057070: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.057070: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.057070: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.058069: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.074581: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.075581: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.075581: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.075581: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.076582: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.076582: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.076582: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.077582: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.077582: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.094619: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.095620: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.096621: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.096621: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.096621: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.097621: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.097621: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.098621: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.098621: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.105633: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.105633: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.106633: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.106633: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.107633: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.107633: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.107633: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.108634: Signing time: 0.001001 seconds
+2024-12-08 20:41:52.108634: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.125670: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.126671: Signing time: 0.001001 seconds
+2024-12-08 20:41:52.126671: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.126671: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.127671: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.127671: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.127671: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.128671: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.128671: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.145564: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.146565: Signing time: 0.001001 seconds
+2024-12-08 20:41:52.146565: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.146565: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.147565: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.147565: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.147565: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.148565: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.149565: Sending time: 0.001000 seconds
+2024-12-08 20:41:52.155760: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.156761: Signing time: 0.001002 seconds
+2024-12-08 20:41:52.156761: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.157761: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.157761: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.157761: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.158761: Encryption time: 0.001000 seconds
+2024-12-08 20:41:52.158761: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.159761: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.176797: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.176797: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.177797: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.177797: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.178798: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.178798: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.178798: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.179798: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.179798: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.196757: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.197758: Signing time: 0.001001 seconds
+2024-12-08 20:41:52.197758: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.197758: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.198758: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.198758: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.198758: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.199758: Signing time: 0.001001 seconds
+2024-12-08 20:41:52.199758: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.216571: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.217572: Signing time: 0.001001 seconds
+2024-12-08 20:41:52.217572: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.218572: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.218572: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.218572: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.219572: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.219572: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.220572: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.227197: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.228198: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.228198: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.228198: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.229197: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.229197: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.229197: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.229197: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.230701: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.247069: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.248070: Signing time: 0.001001 seconds
+2024-12-08 20:41:52.249070: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.249070: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.249070: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.249070: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.249070: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.250573: Signing time: 0.001503 seconds
+2024-12-08 20:41:52.250573: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.268088: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.268088: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.269090: Sending time: 0.001001 seconds
+2024-12-08 20:41:52.269090: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.269090: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.269090: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.269090: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.270593: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.270593: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.277605: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.278608: Signing time: 0.001003 seconds
+2024-12-08 20:41:52.278608: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.279606: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.279606: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.279606: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.280606: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.280606: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.281647: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.298663: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.298663: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.299664: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.299664: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.300664: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.300664: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.300664: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.301168: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.301168: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.319069: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.319069: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.319069: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.319069: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.320572: Signing time: 0.001503 seconds
+2024-12-08 20:41:52.320572: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.320572: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.321591: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.321591: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.339109: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.339109: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.339109: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.340612: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.341631: Signing time: 0.001019 seconds
+2024-12-08 20:41:52.341631: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.341631: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.342632: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.342632: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.348632: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.349634: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.349634: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.350633: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.351138: Signing time: 0.000504 seconds
+2024-12-08 20:41:52.351138: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.351138: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.352140: Signing time: 0.001003 seconds
+2024-12-08 20:41:52.352140: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.369692: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.370693: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.370693: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.370693: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.371197: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.371197: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.372199: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.372199: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.372199: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.389063: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.390566: Signing time: 0.001503 seconds
+2024-12-08 20:41:52.390566: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.390566: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.391577: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.391577: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.392577: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.392577: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.393577: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.399578: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.400579: Signing time: 0.001001 seconds
+2024-12-08 20:41:52.400579: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.400579: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.401778: Signing time: 0.001199 seconds
+2024-12-08 20:41:52.401778: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.401778: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.402778: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.402778: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.419794: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.420795: Signing time: 0.001001 seconds
+2024-12-08 20:41:52.420795: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.420795: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.422416: Signing time: 0.001621 seconds
+2024-12-08 20:41:52.422416: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.422416: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.423443: Signing time: 0.001027 seconds
+2024-12-08 20:41:52.423443: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.440470: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.441479: Signing time: 0.001009 seconds
+2024-12-08 20:41:52.441479: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.441479: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.442480: Signing time: 0.001001 seconds
+2024-12-08 20:41:52.442480: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.442480: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.443482: Signing time: 0.001002 seconds
+2024-12-08 20:41:52.443482: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.460566: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.461578: Signing time: 0.001012 seconds
+2024-12-08 20:41:52.461578: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.462579: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.462579: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.462579: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.463580: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.463580: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.464580: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.470580: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.471593: Signing time: 0.001012 seconds
+2024-12-08 20:41:52.471593: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.472594: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.472594: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.473594: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.473594: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.474595: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.474595: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.491634: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.491634: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.492634: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.492634: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.493635: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.493635: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.493635: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.494636: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.494636: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.511698: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.512699: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.512699: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.512699: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.513699: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.513699: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.513699: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.514699: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.514699: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.521713: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.522713: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.522713: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.522713: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.523714: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.523714: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.524714: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.524714: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.524714: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.542062: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.543064: Signing time: 0.001002 seconds
+2024-12-08 20:41:52.543064: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.543064: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.544063: Signing time: 0.000999 seconds
+2024-12-08 20:41:52.544063: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.544063: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.545064: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.545064: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.562062: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.563064: Signing time: 0.001002 seconds
+2024-12-08 20:41:52.563064: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.564063: Encryption time: 0.001000 seconds
+2024-12-08 20:41:52.564063: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.564063: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.565064: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.565064: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.566064: Sending time: 0.001000 seconds
+2024-12-08 20:41:52.582593: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.583593: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.583593: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.583593: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.584593: Signing time: 0.001001 seconds
+2024-12-08 20:41:52.584593: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.584593: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.585593: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.585593: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.592608: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.593608: Signing time: 0.001001 seconds
+2024-12-08 20:41:52.593608: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.593608: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.594609: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.594609: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.594609: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.595608: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.595608: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.613636: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.613636: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.614637: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.614637: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.615637: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.615637: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.615637: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.616637: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.616637: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.633177: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.634178: Signing time: 0.001001 seconds
+2024-12-08 20:41:52.634178: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.635178: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.635178: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.635178: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.636178: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.636178: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.637178: Sending time: 0.001000 seconds
+2024-12-08 20:41:52.643718: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.644718: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.644718: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.644718: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.645718: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.645718: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.645718: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.646718: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.646718: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.663886: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.664886: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.664886: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.664886: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.665887: Signing time: 0.001002 seconds
+2024-12-08 20:41:52.665887: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.666888: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.666888: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.667887: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.684590: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.685591: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.685591: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.685591: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.686591: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.686591: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.686591: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.687591: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.687591: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.704619: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.705621: Signing time: 0.001002 seconds
+2024-12-08 20:41:52.705621: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.705621: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.706621: Signing time: 0.000999 seconds
+2024-12-08 20:41:52.706621: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.706621: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.707621: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.708621: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.714632: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.715632: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.715632: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.715632: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.716633: Signing time: 0.001001 seconds
+2024-12-08 20:41:52.716633: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.716633: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.717633: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.717633: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.735170: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.736171: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.736171: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.736171: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.737171: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.737171: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.737171: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.738172: Signing time: 0.001001 seconds
+2024-12-08 20:41:52.738172: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.755066: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.756068: Signing time: 0.001001 seconds
+2024-12-08 20:41:52.756068: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.757067: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.757067: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.758067: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.758067: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.758067: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.759067: Sending time: 0.001000 seconds
+2024-12-08 20:41:52.765581: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.766581: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.766581: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.766581: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.767581: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.767581: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.767581: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.768581: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.768581: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.786092: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.787093: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.787093: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.787093: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.788093: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.788093: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.788093: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.789093: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.789093: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.806625: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.806625: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.807626: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.807626: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.807626: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.808626: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.808626: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.808626: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.809626: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.826582: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.828747: Signing time: 0.001163 seconds
+2024-12-08 20:41:52.829752: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.829752: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.830752: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.830752: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.830752: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.831256: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.831256: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.836272: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.837273: Signing time: 0.001001 seconds
+2024-12-08 20:41:52.837273: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.838272: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.838272: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.839273: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.839273: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.839273: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.839273: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.856803: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.857804: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.857804: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.857804: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.858804: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.858804: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.859804: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.859804: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.860804: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.877825: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.877825: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.878826: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.878826: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.878826: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.879826: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.879826: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.879826: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.880826: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.887090: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.888090: Signing time: 0.001001 seconds
+2024-12-08 20:41:52.889091: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.889091: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.889091: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.889091: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.890594: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.890594: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.891626: Sending time: 0.001033 seconds
+2024-12-08 20:41:52.907642: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.908642: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.908642: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.909643: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.909643: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.909643: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.910643: Encryption time: 0.001001 seconds
+2024-12-08 20:41:52.911147: Signing time: 0.000504 seconds
+2024-12-08 20:41:52.911147: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.928069: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.929069: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.929069: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.929069: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.930573: Signing time: 0.001503 seconds
+2024-12-08 20:41:52.930573: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.930573: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.930573: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.930573: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.948080: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.949081: Signing time: 0.001001 seconds
+2024-12-08 20:41:52.949081: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.949081: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.950584: Signing time: 0.001503 seconds
+2024-12-08 20:41:52.950584: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.950584: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.951594: Signing time: 0.001010 seconds
+2024-12-08 20:41:52.951594: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.958595: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.959595: Signing time: 0.001000 seconds
+2024-12-08 20:41:52.959595: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.959595: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.961100: Signing time: 0.001001 seconds
+2024-12-08 20:41:52.961100: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.961100: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.962101: Signing time: 0.000000 seconds
+2024-12-08 20:41:52.962101: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.978615: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.979616: Signing time: 0.001001 seconds
+2024-12-08 20:41:52.979616: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.980616: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.981120: Signing time: 0.000504 seconds
+2024-12-08 20:41:52.981120: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.981120: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.982122: Signing time: 0.001002 seconds
+2024-12-08 20:41:52.982122: Sending time: 0.000000 seconds
+2024-12-08 20:41:52.999070: Encryption time: 0.000000 seconds
+2024-12-08 20:41:52.999070: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.000572: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.000572: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.001606: Signing time: 0.001033 seconds
+2024-12-08 20:41:53.001606: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.001606: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.002605: Signing time: 0.000999 seconds
+2024-12-08 20:41:53.002605: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.009606: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.010607: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.010607: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.010607: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.011110: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.011110: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.012112: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.012112: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.012112: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.029062: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.030565: Signing time: 0.001503 seconds
+2024-12-08 20:41:53.030565: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.030565: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.032081: Signing time: 0.001516 seconds
+2024-12-08 20:41:53.032081: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.032081: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.033114: Signing time: 0.001034 seconds
+2024-12-08 20:41:53.033114: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.049080: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.050582: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.051604: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.051604: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.051604: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.052604: Sending time: 0.001000 seconds
+2024-12-08 20:41:53.052604: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.053604: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.053604: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.070369: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.071381: Signing time: 0.001012 seconds
+2024-12-08 20:41:53.071381: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.071381: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.072382: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.072382: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.072382: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.073383: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.073383: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.080887: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.081888: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.081888: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.081888: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.082888: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.082888: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.082888: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.083888: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.083888: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.100564: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.101575: Signing time: 0.001011 seconds
+2024-12-08 20:41:53.101575: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.101575: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.102577: Signing time: 0.001002 seconds
+2024-12-08 20:41:53.102577: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.102577: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.103577: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.103577: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.121603: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.121603: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.122604: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.122604: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.123604: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.123604: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.123604: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.124604: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.124604: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.130605: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.132121: Signing time: 0.001516 seconds
+2024-12-08 20:41:53.132121: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.132121: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.133135: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.133135: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.134135: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.134135: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.134135: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.152063: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.152063: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.153064: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.153064: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.153064: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.154065: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.154065: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.155065: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.155065: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.171885: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.172885: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.172885: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.172885: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.173886: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.173886: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.173886: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.174886: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.174886: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.192598: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.193599: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.193599: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.193599: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.194599: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.194599: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.194599: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.195599: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.195599: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.202613: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.203613: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.203613: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.203613: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.204614: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.204614: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.204614: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.205614: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.205614: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.222649: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.223650: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.223650: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.223650: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.224650: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.224650: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.224650: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.225650: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.225650: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.243068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.244068: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.244068: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.244068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.245069: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.245069: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.245069: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.246069: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.246069: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.253068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.254068: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.254068: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.254068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.255069: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.256069: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.256069: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.257069: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.257069: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.273577: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.274578: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.274578: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.274578: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.275578: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.275578: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.276578: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.276578: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.277579: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.294311: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.294311: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.294311: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.295311: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.295311: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.296313: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.296313: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.297313: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.297313: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.314068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.315068: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.315068: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.315068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.316068: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.316068: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.316068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.317069: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.317069: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.324067: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.325066: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.325066: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.326068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.326068: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.326068: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.327068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.327068: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.328068: Sending time: 0.001000 seconds
+2024-12-08 20:41:53.345064: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.345064: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.346064: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.346064: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.347065: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.347065: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.347065: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.348065: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.348065: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.364583: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.365583: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.365583: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.365583: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.366583: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.366583: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.367582: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.367582: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.368583: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.375452: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.375452: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.375452: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.376454: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.376454: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.377453: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.377453: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.378454: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.378454: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.395575: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.396576: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.396576: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.396576: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.397576: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.397576: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.397576: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.398577: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.398577: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.415576: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.416577: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.416577: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.417577: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.417577: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.418577: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.418577: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.418577: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.419578: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.436146: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.436146: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.437146: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.437146: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.438147: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.438147: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.438147: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.439147: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.439147: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.446081: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.447081: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.447081: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.447081: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.448082: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.448082: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.449082: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.449082: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.449082: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.466645: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.467647: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.467647: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.467647: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.468647: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.468647: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.468647: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.469647: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.469647: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.486611: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.487612: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.487612: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.488612: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.488612: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.488612: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.489612: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.489612: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.489612: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.497263: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.498264: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.498264: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.498264: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.499264: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.499264: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.499264: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.499264: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.500767: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.517794: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.517794: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.518794: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.518794: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.518794: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.519795: Sending time: 0.001000 seconds
+2024-12-08 20:41:53.519795: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.519795: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.520795: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.537327: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.538327: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.538327: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.538327: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.539327: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.539327: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.539327: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.540830: Signing time: 0.001503 seconds
+2024-12-08 20:41:53.540830: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.557564: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.558565: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.558565: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.559565: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.559565: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.560565: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.560565: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.561069: Signing time: 0.000504 seconds
+2024-12-08 20:41:53.561069: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.568072: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.569072: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.569072: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.569072: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.569072: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.570575: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.570575: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.571594: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.571594: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.588101: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.589102: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.589102: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.589102: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.590606: Signing time: 0.001504 seconds
+2024-12-08 20:41:53.590606: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.590606: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.591644: Signing time: 0.001038 seconds
+2024-12-08 20:41:53.591644: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.608657: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.609657: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.609657: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.609657: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.610657: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.611160: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.611160: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.611160: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.612162: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.619163: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.619163: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.619163: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.620666: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.620666: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.620666: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.621675: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.621675: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.622675: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.639202: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.640704: Signing time: 0.001502 seconds
+2024-12-08 20:41:53.640704: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.640704: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.641713: Signing time: 0.001009 seconds
+2024-12-08 20:41:53.641713: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.641713: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.642714: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.642714: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.659727: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.659727: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.660728: Sending time: 0.001001 seconds
+2024-12-08 20:41:53.660728: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.661232: Signing time: 0.000504 seconds
+2024-12-08 20:41:53.661232: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.661232: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.662235: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.662235: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.679069: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.680571: Signing time: 0.001502 seconds
+2024-12-08 20:41:53.680571: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.680571: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.681593: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.681593: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.682593: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.682593: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.682593: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.689595: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.690595: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.691606: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.691606: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.691606: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.692606: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.692606: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.693606: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.693606: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.710673: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.710673: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.710673: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.710673: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.712143: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.712143: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.713142: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.713142: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.713142: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.730603: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.730603: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.732116: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.732116: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.732116: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.733127: Sending time: 0.001011 seconds
+2024-12-08 20:41:53.733127: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.733127: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.734127: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.740630: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.741641: Signing time: 0.001011 seconds
+2024-12-08 20:41:53.741641: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.741641: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.742641: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.742641: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.742641: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.743641: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.743641: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.761160: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.761160: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.762602: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.762602: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.763602: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.763602: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.763602: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.764602: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.764602: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.781133: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.782135: Signing time: 0.001002 seconds
+2024-12-08 20:41:53.782135: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.783134: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.783134: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.783134: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.784134: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.784134: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.785135: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.801706: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.802705: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.802705: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.802705: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.803707: Signing time: 0.001002 seconds
+2024-12-08 20:41:53.803707: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.804707: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.804707: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.804707: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.811722: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.812721: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.812721: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.812721: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.813723: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.813723: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.813723: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.814723: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.815723: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.832264: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.833274: Signing time: 0.001010 seconds
+2024-12-08 20:41:53.833274: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.833274: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.834275: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.834275: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.834275: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.835275: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.835275: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.852063: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.853064: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.854064: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.854064: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.855065: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.855065: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.855065: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.856065: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.856065: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.862578: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.863578: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.863578: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.863578: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.864578: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.864578: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.864578: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.865579: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.865579: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.882682: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.883682: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.883682: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.884683: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.884683: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.885684: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.885684: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.886683: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.886683: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.903712: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.903712: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.904712: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.904712: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.905713: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.905713: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.905713: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.906712: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.906712: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.924066: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.924066: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.925066: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.925066: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.926066: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.926066: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.926066: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.927067: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.927067: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.934094: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.935094: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.935094: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.935094: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.936094: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.936094: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.936094: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.937095: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.937095: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.954582: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.954582: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.955582: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.955582: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.955582: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.956582: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.956582: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.957582: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.957582: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.974100: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.975101: Signing time: 0.001002 seconds
+2024-12-08 20:41:53.975101: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.975101: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.976101: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.976101: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.977101: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.977101: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.977101: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.984625: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.985625: Signing time: 0.001000 seconds
+2024-12-08 20:41:53.985625: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.985625: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.986626: Signing time: 0.001001 seconds
+2024-12-08 20:41:53.986626: Sending time: 0.000000 seconds
+2024-12-08 20:41:53.986626: Encryption time: 0.000000 seconds
+2024-12-08 20:41:53.987626: Signing time: 0.000000 seconds
+2024-12-08 20:41:53.987626: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.004650: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.005651: Signing time: 0.001001 seconds
+2024-12-08 20:41:54.005651: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.006654: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.007651: Signing time: 0.000000 seconds
+2024-12-08 20:41:54.007651: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.007651: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.008652: Signing time: 0.001000 seconds
+2024-12-08 20:41:54.008652: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.025685: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.025685: Signing time: 0.000000 seconds
+2024-12-08 20:41:54.026685: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.026685: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.026685: Signing time: 0.000000 seconds
+2024-12-08 20:41:54.027685: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.027685: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.028686: Signing time: 0.000000 seconds
+2024-12-08 20:41:54.028686: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.045063: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.046063: Signing time: 0.000000 seconds
+2024-12-08 20:41:54.046063: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.047064: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.047064: Signing time: 0.000000 seconds
+2024-12-08 20:41:54.048064: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.048064: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.048064: Signing time: 0.000000 seconds
+2024-12-08 20:41:54.049064: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.056061: Encryption time: 0.001000 seconds
+2024-12-08 20:41:54.057062: Signing time: 0.000000 seconds
+2024-12-08 20:41:54.057062: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.057062: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.058062: Signing time: 0.001000 seconds
+2024-12-08 20:41:54.058062: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.058062: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.059062: Signing time: 0.001000 seconds
+2024-12-08 20:41:54.059062: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.075592: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.076592: Signing time: 0.000000 seconds
+2024-12-08 20:41:54.077592: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.077592: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.077592: Signing time: 0.000000 seconds
+2024-12-08 20:41:54.078593: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.078593: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.078593: Signing time: 0.000000 seconds
+2024-12-08 20:41:54.079593: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.096073: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.097072: Signing time: 0.001000 seconds
+2024-12-08 20:41:54.097072: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.098072: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.098072: Signing time: 0.000000 seconds
+2024-12-08 20:41:54.098072: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.099072: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.099072: Signing time: 0.000000 seconds
+2024-12-08 20:41:54.099072: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.106588: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.107588: Signing time: 0.001000 seconds
+2024-12-08 20:41:54.107588: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.107588: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.108589: Signing time: 0.001001 seconds
+2024-12-08 20:41:54.108589: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.108589: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.109589: Signing time: 0.001000 seconds
+2024-12-08 20:41:54.109589: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.126716: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.127716: Signing time: 0.001000 seconds
+2024-12-08 20:41:54.127716: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.128717: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.128717: Signing time: 0.000000 seconds
+2024-12-08 20:41:54.129717: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.129717: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.129717: Signing time: 0.000000 seconds
+2024-12-08 20:41:54.130717: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.147067: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.148068: Signing time: 0.001001 seconds
+2024-12-08 20:41:54.148068: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.148068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.149068: Signing time: 0.001000 seconds
+2024-12-08 20:41:54.149068: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.149068: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.150571: Signing time: 0.001503 seconds
+2024-12-08 20:41:54.150571: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.167608: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.168608: Signing time: 0.001001 seconds
+2024-12-08 20:41:54.168608: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.168608: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.169608: Signing time: 0.000999 seconds
+2024-12-08 20:41:54.169608: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.169608: Encryption time: 0.000000 seconds
+2024-12-08 20:41:54.171113: Signing time: 0.001001 seconds
+2024-12-08 20:41:54.171113: Sending time: 0.000000 seconds
+2024-12-08 20:41:54.178117: Encryption time: 0.000000 seconds
